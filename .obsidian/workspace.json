@@ -4,31 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "3fa8522c05d06e0c",
+        "id": "3c71e14d9d8c8fe6",
         "type": "tabs",
         "children": [
           {
-            "id": "84dd5d457871e8af",
+            "id": "d7fcb9825c1d8548",
             "type": "leaf",
             "state": {
               "type": "empty",
               "state": {}
             }
-          },
-          {
-            "id": "781cac67ad571cd5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "conflict-files-obsidian-git.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -95,7 +82,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,17 +102,17 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "781cac67ad571cd5",
+  "active": "d7fcb9825c1d8548",
   "lastOpenFiles": [
+    "📦 Notes/📝 Library Notes/TEST.md",
     "conflict-files-obsidian-git.md",
+    "📦 Notes/🔖 Byproduct Notes.md",
     "📦 Notes/📝 Library Notes/🎓 Physicalism - SEP.md",
     "2022-10-18.md",
     "Untitled.md",
     "📦 Notes/📝 Library Notes/🎥 Comprensive Zettelkasten Workflow - Brian Jenk.md",
     "test.md",
     "📦 Notes/📝 Library Notes/📘 What the Buddha Taught - Walpola Rahula.md",
-    "🏛️ Library/🛠️ Tools.md",
-    "🏛️ Library/📚 Books and Articles.md",
-    "🏛️ Library/📸 Images/Purusha.bmp"
+    "🏛️ Library/🛠️ Tools.md"
   ]
 }
