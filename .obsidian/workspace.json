@@ -23,12 +23,8 @@
             "id": "9250699e92a0daf4",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "test.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ],
@@ -83,7 +79,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 316
+    "width": 317
   },
   "right": {
     "id": "24d4561e4d8d0a15",
@@ -99,7 +95,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "test.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,17 +115,17 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "9250699e92a0daf4",
+  "active": "f7ec48c08629aab9",
   "lastOpenFiles": [
-    "📦 Notes/📝 Library Notes/📘 What the Buddha Taught - Walpola Rahula.md",
+    "Untitled.md",
+    "📦 Notes/📝 Library Notes/🎥 Comprensive Zettelkasten Workflow - Brian Jenk.md",
     "test.md",
+    "📦 Notes/📝 Library Notes/📘 What the Buddha Taught - Walpola Rahula.md",
     "📦 Notes/📝 Library Notes/🎓 Physicalism - SEP.md",
     "🏛️ Library/🛠️ Tools.md",
     "🏛️ Library/📚 Books and Articles.md",
     "🏛️ Library/📸 Images/Purusha.bmp",
     "🏛️ Library/📸 Images/social-equity.png",
-    "🏛️ Library/📸 Images/depositphotos_85737248-stock-illustration-halftone-dots-radial-with-shadow.webp",
-    "supervenience.md",
-    "📦 Notes/🔖 Byproduct Notes.md"
+    "🏛️ Library/📸 Images/depositphotos_85737248-stock-illustration-halftone-dots-radial-with-shadow.webp"
   ]
 }
