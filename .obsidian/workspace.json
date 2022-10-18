@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "🏛️ Library/🛠️ Tools.md",
+                "file": "📦 Notes/📝 Library Notes/🎙️ Aza Raskin on AI, language, and Species - Nate Hagens.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7d0941b563f28f3a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "📦 Notes/📝 Library Notes/🎓 Physicalism - SEP.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -86,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "🏛️ Library/🛠️ Tools.md",
+                "file": "📦 Notes/📝 Library Notes/🎓 Physicalism - SEP.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -107,17 +120,17 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "7ffaba146dd43a52",
+  "active": "7d0941b563f28f3a",
   "lastOpenFiles": [
-    "🏛️ Library/📚 Books and Articles.md",
+    "📦 Notes/📝 Library Notes/🎙️ Aza Raskin on AI, language, and Species - Nate Hagens.md",
+    "📦 Notes/📝 Library Notes/TEST NOTE.md",
+    "📦 Notes/📝 Library Notes/🎥 Buddha and Ashoka - Crash Course World History.md",
+    "📦 Notes/📝 Library Notes/📃 The Responsible Parent's Guide to Healthy Mood - BLTC.md",
+    "📦 Notes/📝 Library Notes/📃 Ashoka of India - Worldhistory.org.md",
     "🏛️ Library/🛠️ Tools.md",
+    "🏛️ Library/📚 Books and Articles.md",
     "🏛️ Library/📸 Images/Purusha.bmp",
     "🏛️ Library/📸 Images/social-equity.png",
-    "🏛️ Library/📸 Images/depositphotos_85737248-stock-illustration-halftone-dots-radial-with-shadow.webp",
-    "📦 Notes/📝 Library Notes/🎓 Physicalism - SEP.md",
-    "supervenience.md",
-    "📦 Notes/🔖 Byproduct Notes.md",
-    "📦 Notes/📝 Library Notes/Physcalism - SEP.md",
-    "📦 Notes/📝 Library Notes/🎥 The incoherence of our ordinary intuitions - Bernardo Kastrup.md"
+    "🏛️ Library/📸 Images/depositphotos_85737248-stock-illustration-halftone-dots-radial-with-shadow.webp"
   ]
 }
