@@ -19,12 +19,8 @@
             "id": "14e5a530c1905b3f",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "📦 Notes/📝 Library Notes/test.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           }
         ],
@@ -95,7 +91,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "📦 Notes/📝 Library Notes/test.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,6 +113,7 @@
   },
   "active": "14e5a530c1905b3f",
   "lastOpenFiles": [
+    "📦 Notes/📝 Library Notes/test.md",
     "📦 Notes/📝 Library Notes/TEST.md",
     "conflict-files-obsidian-git.md",
     "📦 Notes/📝 Library Notes/🎓 Physicalism - SEP.md",
@@ -126,7 +122,6 @@
     "📦 Notes/📝 Library Notes/🎥 Buddha and Ashoka - Crash Course World History.md",
     "📦 Notes/📝 Library Notes/📃 The Responsible Parent's Guide to Healthy Mood - BLTC.md",
     "📦 Notes/📝 Library Notes/📃 Ashoka of India - Worldhistory.org.md",
-    "🏛️ Library/🛠️ Tools.md",
-    "🏛️ Library/📚 Books and Articles.md"
+    "🏛️ Library/🛠️ Tools.md"
   ]
 }
