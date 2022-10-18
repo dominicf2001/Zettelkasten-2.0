@@ -1,0 +1,118 @@
+{
+  "main": {
+    "id": "b7f92825497b1832",
+    "type": "split",
+    "children": [
+      {
+        "id": "27593024128efee6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "cd7cd3293dcecaf6",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "95026d89ee68155c",
+    "type": "split",
+    "children": [
+      {
+        "id": "26fc0434f4dc40ab",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0dce33f0b1022be0",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": true,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "905f0be6215c33b5",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          },
+          {
+            "id": "f7ec48c08629aab9",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "byModifiedTime"
+              }
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "horizontal",
+    "width": 317
+  },
+  "right": {
+    "id": "24d4561e4d8d0a15",
+    "type": "split",
+    "children": [
+      {
+        "id": "f99d07fd9ea35e42",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "dc82cf3428bf1b96",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 295,
+    "collapsed": true
+  },
+  "ribbon": {
+    "mostRecentAction": ""
+  },
+  "active": "cd7cd3293dcecaf6",
+  "lastOpenFiles": [
+    "conflict-files-obsidian-git.md",
+    "📦 Notes/📝 Library Notes/🎓 Physicalism - SEP.md",
+    "2022-10-18.md",
+    "Untitled.md",
+    "📦 Notes/📝 Library Notes/🎥 Comprensive Zettelkasten Workflow - Brian Jenk.md",
+    "test.md",
+    "📦 Notes/📝 Library Notes/📘 What the Buddha Taught - Walpola Rahula.md",
+    "🏛️ Library/🛠️ Tools.md",
+    "🏛️ Library/📚 Books and Articles.md",
+    "🏛️ Library/📸 Images/Purusha.bmp"
+  ]
+}
