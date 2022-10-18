@@ -4,31 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "bb0e5ffec8ca3a74",
+        "id": "d6df0c232e6c8d03",
         "type": "tabs",
         "children": [
           {
-            "id": "7ffaba146dd43a52",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "📦 Notes/📝 Library Notes/🎓 Physicalism - SEP.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9250699e92a0daf4",
+            "id": "3a26262c60fda231",
             "type": "leaf",
             "state": {
               "type": "empty",
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -115,17 +102,17 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "f7ec48c08629aab9",
+  "active": "3a26262c60fda231",
   "lastOpenFiles": [
+    "📦 Notes/📝 Library Notes/🎓 Physicalism - SEP.md",
+    "2022-10-18.md",
     "Untitled.md",
     "📦 Notes/📝 Library Notes/🎥 Comprensive Zettelkasten Workflow - Brian Jenk.md",
     "test.md",
     "📦 Notes/📝 Library Notes/📘 What the Buddha Taught - Walpola Rahula.md",
-    "📦 Notes/📝 Library Notes/🎓 Physicalism - SEP.md",
     "🏛️ Library/🛠️ Tools.md",
     "🏛️ Library/📚 Books and Articles.md",
     "🏛️ Library/📸 Images/Purusha.bmp",
-    "🏛️ Library/📸 Images/social-equity.png",
-    "🏛️ Library/📸 Images/depositphotos_85737248-stock-illustration-halftone-dots-radial-with-shadow.webp"
+    "🏛️ Library/📸 Images/social-equity.png"
   ]
 }
