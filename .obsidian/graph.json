@@ -1,0 +1,107 @@
+{
+  "collapse-filter": false,
+  "search": "",
+  "showTags": false,
+  "showAttachments": false,
+  "hideUnresolved": false,
+  "showOrphans": true,
+  "collapse-color-groups": true,
+  "colorGroups": [
+    {
+      "query": "tag:#📦/💭/🌱",
+      "color": {
+        "a": 1,
+        "rgb": 322304
+      }
+    },
+    {
+      "query": "tag:#📦/💭/🌿",
+      "color": {
+        "a": 1,
+        "rgb": 168960
+      }
+    },
+    {
+      "query": "tag:#📦/💭/🌲",
+      "color": {
+        "a": 1,
+        "rgb": 81152
+      }
+    },
+    {
+      "query": "tag:#📦/📝/📘",
+      "color": {
+        "a": 1,
+        "rgb": 15659094
+      }
+    },
+    {
+      "query": "tag:#📦/📝/🎙️",
+      "color": {
+        "a": 1,
+        "rgb": 13762544
+      }
+    },
+    {
+      "query": "tag:#📦/📝/🎥",
+      "color": {
+        "a": 1,
+        "rgb": 5852670
+      }
+    },
+    {
+      "query": "tag:#📦/📝/🎓",
+      "color": {
+        "a": 1,
+        "rgb": 5084373
+      }
+    },
+    {
+      "query": "tag:#📦/📝/📃",
+      "color": {
+        "a": 1,
+        "rgb": 14391807
+      }
+    },
+    {
+      "query": "tag:#📦/📝/❔",
+      "color": {
+        "a": 1,
+        "rgb": 1578040
+      }
+    },
+    {
+      "query": "tag:#📦/🔖",
+      "color": {
+        "a": 1,
+        "rgb": 4335913
+      }
+    },
+    {
+      "query": "tag:#📦/💭/🌀",
+      "color": {
+        "a": 1,
+        "rgb": 10550918
+      }
+    },
+    {
+      "query": "path:\"📦 Notes/✏️ Excalidraw Notes\"",
+      "color": {
+        "a": 1,
+        "rgb": 16777215
+      }
+    }
+  ],
+  "collapse-display": true,
+  "showArrow": false,
+  "textFadeMultiplier": 0,
+  "nodeSizeMultiplier": 1,
+  "lineSizeMultiplier": 1,
+  "collapse-forces": false,
+  "centerStrength": 0.700854700854701,
+  "repelStrength": 16.2393162393162,
+  "linkStrength": 0.820512820512821,
+  "linkDistance": 207,
+  "scale": 0.7132754626224699,
+  "close": true
+}

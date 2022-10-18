@@ -1,0 +1,66 @@
+{
+  "obsidian-emoji-toolbar:emoji-picker:open-picker": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "A"
+    }
+  ],
+  "templater-obsidian:📋 Management/🏷️ Templates/🌀 Fleeting Thoughts Template.md": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "Numpad1"
+    }
+  ],
+  "templater-obsidian:📋 Management/🏷️ Templates/🌱 Seedling Template.md": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "Numpad2"
+    }
+  ],
+  "templater-obsidian:📋 Management/🏷️ Templates/📘 Book Template.md": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "Numpad3"
+    }
+  ],
+  "templater-obsidian:📋 Management/🏷️ Templates/📃 Article Template.md": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "Numpad4"
+    }
+  ],
+  "templater-obsidian:📋 Management/🏷️ Templates/🎥 Video Template.md": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "Numpad5"
+    }
+  ],
+  "templater-obsidian:📋 Management/🏷️ Templates/🎙️ Podcast Template.md": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "Numpad6"
+    }
+  ],
+  "templater-obsidian:📋 Management/🏷️ Templates/🎓 Academic Paper Template.md": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "Numpad7"
+    }
+  ]
+}

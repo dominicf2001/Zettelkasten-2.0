@@ -1,0 +1,112 @@
+{
+  "main": {
+    "id": "b7f92825497b1832",
+    "type": "split",
+    "children": [
+      {
+        "id": "f1a4140a3ea3d8e5",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "📦 Notes/📝 Library Notes/🎓 Physicalism - SEP.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "95026d89ee68155c",
+    "type": "split",
+    "children": [
+      {
+        "id": "26fc0434f4dc40ab",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0dce33f0b1022be0",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": true,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "905f0be6215c33b5",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          },
+          {
+            "id": "f7ec48c08629aab9",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "horizontal",
+    "width": 278
+  },
+  "right": {
+    "id": "24d4561e4d8d0a15",
+    "type": "split",
+    "children": [
+      {
+        "id": "f99d07fd9ea35e42",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "dc82cf3428bf1b96",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "📦 Notes/📝 Library Notes/🎓 Physicalism - SEP.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 295,
+    "collapsed": true
+  },
+  "active": "f7ec48c08629aab9",
+  "lastOpenFiles": [
+    "supervenience.md",
+    "📦 Notes/📝 Library Notes/🎓 Physicalism - SEP.md",
+    "📦 Notes/🔖 Byproduct Notes.md",
+    "📦 Notes/📝 Library Notes/Physcalism - SEP.md",
+    "📦 Notes/📝 Library Notes/🎥 The incoherence of our ordinary intuitions - Bernardo Kastrup.md",
+    "📦 Notes/📝 Library Notes/🎥 The Incoherence of Constitutive Panpsychism.md",
+    "📦 Notes/📝 Library Notes/📃 Satisfiability - Wikipedia.md",
+    "📋 Management/🏷️ Templates/📘 Book Template.md",
+    "📋 Management/🏷️ Templates/✏️ Excalidraw Template.md",
+    "📋 Management/🏷️ Templates/📃 Article Template.md"
+  ]
+}
