@@ -11,7 +11,7 @@
             "id": "aaecaecba244cb4b",
             "type": "leaf",
             "state": {
-              "type": "empty",
+              "type": "graph",
               "state": {}
             }
           },
@@ -29,14 +29,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
+                "file": "📦 Notes/📝 Library Notes/🎥 The incoherence of our ordinary intuitions - Bernardo Kastrup.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -103,7 +102,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,17 +122,17 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "411287f06e1481cf",
+  "active": "aaecaecba244cb4b",
   "lastOpenFiles": [
     "📦 Notes/📝 Library Notes/test.md",
-    "📦 Notes/📝 Library Notes/TEST.md",
+    "📦 Notes/📝 Library Notes/🎥 The incoherence of our ordinary intuitions - Bernardo Kastrup.md",
+    "📦 Notes/📝 Library Notes/🎥 Are Liberals Really Liberal - Carneades.md",
     "conflict-files-obsidian-git.md",
+    "📦 Notes/📝 Library Notes/TEST.md",
     "📦 Notes/📝 Library Notes/🎓 Physicalism - SEP.md",
     "📦 Notes/📝 Library Notes/🎙️ Aza Raskin on AI, language, and Species - Nate Hagens.md",
     "📦 Notes/📝 Library Notes/TEST NOTE.md",
     "📦 Notes/📝 Library Notes/🎥 Buddha and Ashoka - Crash Course World History.md",
-    "📦 Notes/📝 Library Notes/📃 The Responsible Parent's Guide to Healthy Mood - BLTC.md",
-    "📦 Notes/📝 Library Notes/📃 Ashoka of India - Worldhistory.org.md",
-    "🏛️ Library/🛠️ Tools.md"
+    "📦 Notes/📝 Library Notes/📃 The Responsible Parent's Guide to Healthy Mood - BLTC.md"
   ]
 }
