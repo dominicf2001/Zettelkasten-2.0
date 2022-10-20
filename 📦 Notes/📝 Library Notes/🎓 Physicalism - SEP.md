@@ -34,9 +34,13 @@ Created: 2022-10-14
 		- Apparently violates Hume's dictum: there are no necessary connections between distinct ontological categories
 #### Necessity Physicalism
 - If everything is physical ->
-	- then every property in our world is ultimately *necessitated* by a physical property
-
-
+	- then every property in our world is ultimately *necessitated* by a physical property (it is *entailed by*)
+#### Identity Physicalism
+- Two types:
+	- Token physicalism
+		- Every particular in the world is identical to a physical particular
+		- Not sufficient or necessary, because there are some particulars which are not identical to physical particulars (those non-identical particulars may still [[#Supervenience Physicalism|supervene]] on physical particulars)
+	- Type physicalism
 ## Reference
 1. https://plato.stanford.edu/entries/physicalism/
 
