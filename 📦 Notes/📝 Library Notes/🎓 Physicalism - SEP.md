@@ -40,7 +40,10 @@ Created: 2022-10-14
 	- Token physicalism
 		- Every particular in the world is identical to a physical particular
 		- Not sufficient or necessary, because there are some particulars which are not identical to physical particulars (those non-identical particulars may still [[#Supervenience Physicalism|supervene]] on physical particulars)
+		- Compatible with [[property dualism]] which says **all** particulars are **physical**, but some have *psychological [[properties]]*, which are distinct from *physical properties*
+		- Incompatible with [[substance dualism]] which says particulars can either be physical or non-physical
 	- Type physicalism
+		- Every *property* in the world is IDENTICAL to a physical property
 ## Reference
 1. https://plato.stanford.edu/entries/physicalism/
 
