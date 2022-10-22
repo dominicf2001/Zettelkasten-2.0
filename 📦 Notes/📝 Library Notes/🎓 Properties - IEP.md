@@ -25,7 +25,19 @@ Created: 2022-10-22
 	- Do abstract/general/universal entities exist?
 	- Or is everything merely a particular?
 - The terms are ambiguous
-	- If you are a "realist" you can either de
+	- If you are a "realist" you can be a realist about properties *or* universals
+		- (?) Does this distinguish properties from universals? it seems to depend on your theory of properties
+	- If you are a "nominalist" you can deny the existence of abstract objects while accepting the existence of universals or vice versa
+	- This article holds nominalist to mean denying universals
+- Realism/Nominalism in the context of properties
+	- A realist property theory would hold a a **universalist** theory
+	- A nominalist property theory comes in two types
+		- Medium nominalism: trope theory
+		- Extreme nominalism: completely denies all property-like entities
+			- Position put forth by Quine completely dismisses the similarity question
+- Extreme Nominalist questions how exactly universals *instantiate* properties, whether abstractly or immanently 
+	- Ontologically mysterious
+- Realist argues that the Nominalist is working backwards, trying to expla
   
 ## Reference
 1. https://iep.utm.edu/properties/
