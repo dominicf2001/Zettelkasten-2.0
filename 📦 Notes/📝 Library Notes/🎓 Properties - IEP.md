@@ -37,7 +37,7 @@ Created: 2022-10-22
 			- Position put forth by Quine completely dismisses the similarity question
 - Extreme Nominalist questions how exactly universals *instantiate* properties, whether abstractly or immanently 
 	- Ontologically mysterious
-- Realist argues that the Nominalist is working backwards, trying to expla
+- Realist argues that the extreme Nominalist is working backwards, trying to explain the property in terms of predication, or by membership to a set, instead of the other way around (predication *due to* instantiating the property)
   
 ## Reference
 1. https://iep.utm.edu/properties/
