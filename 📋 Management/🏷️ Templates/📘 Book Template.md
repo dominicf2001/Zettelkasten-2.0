@@ -3,7 +3,7 @@ tags: 📦/📝/📘
 aliases:
 ---
 <% tp.file.rename("📘" + " " + tp.file.title) %>
-<% tp.file.move("/📦 Notes/📝 Library Notes/") %>
+<% tp.file.move("/📦 Notes/📝 Library Notes/" + "📘" + " " + tp.file.title) %>
 # <% tp.file.title %>
 Created: <% tp.date.now() %>
 
