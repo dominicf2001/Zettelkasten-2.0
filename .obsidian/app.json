@@ -11,5 +11,6 @@
   "userIgnoreFilters": [
     "📋 Management/",
     "🏛️ Library/"
-  ]
+  ],
+  "showInlineTitle": false
 }

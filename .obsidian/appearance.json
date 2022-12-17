@@ -1,7 +1,10 @@
 {
-  "baseFontSize": 19,
+  "baseFontSize": 21,
   "cssTheme": "Shimmering Focus",
   "textFontFamily": "",
-  "interfaceFontFamily": "Cambria Math",
-  "accentColor": ""
+  "interfaceFontFamily": "",
+  "accentColor": "",
+  "showViewHeader": true,
+  "nativeMenus": false,
+  "translucency": false
 }
