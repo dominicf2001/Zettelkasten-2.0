@@ -44,6 +44,8 @@ Created: 2022-10-14
 		- Incompatible with [[substance dualism]] which says particulars can either be physical or non-physical
 	- Type physicalism
 		- Every *property* in the world is IDENTICAL to a physical property
+
+
 ## Reference
 1. https://plato.stanford.edu/entries/physicalism/
 

@@ -5,12 +5,11 @@
   "graph",
   "backlink",
   "page-preview",
-  "daily-notes",
-  "note-composer",
   "command-palette",
   "editor-status",
   "starred",
   "markdown-importer",
+  "outline",
   "word-count",
   "file-recovery"
 ]
