@@ -5,5 +5,11 @@
   "defaultViewMode": "source",
   "attachmentFolderPath": "🏛️ Library/📸 Images",
   "fileSortOrder": "byModifiedTime",
-  "alwaysUpdateLinks": true
+  "alwaysUpdateLinks": true,
+  "readableLineLength": true,
+  "newFileLocation": "current",
+  "userIgnoreFilters": [
+    "📋 Management/",
+    "🏛️ Library/"
+  ]
 }
