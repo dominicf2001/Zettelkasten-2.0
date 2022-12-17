@@ -1,6 +1,8 @@
+# Short Term
 ```todoist
 {
-	"name": "Today",
-	"filter": "today"
+	"name": "##Life",
+	"filter": "#*Life*"
 }
 ```
+# Medium Term
