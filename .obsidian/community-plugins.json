@@ -3,5 +3,7 @@
   "obsidian-excalidraw-plugin",
   "obsidian-emoji-toolbar",
   "templater-obsidian",
-  "obsidian-git"
+  "obsidian-git",
+  "obsidian-style-settings",
+  "obsidian-icon-folder"
 ]
