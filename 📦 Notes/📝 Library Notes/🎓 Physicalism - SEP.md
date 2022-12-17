@@ -52,4 +52,3 @@ Created: 2022-10-14
 ## Categories
 1. [[Physicalism]]
 2. [[Metaphysics]]
-3. [[]]
