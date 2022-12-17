@@ -43,4 +43,4 @@ Created: 2022-10-22
 1. https://iep.utm.edu/properties/
 
 ## Categories
-1. [[Metaphysics]]
+1. [[🔅 METAPHYSICS]]
