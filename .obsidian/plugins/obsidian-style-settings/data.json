@@ -1,5 +1,5 @@
 {
-  "shimmering-focus@@normal-header-bar": false,
+  "shimmering-focus@@normal-header-bar": true,
   "shimmering-focus@@show-sidebar-header-buttons": false,
   "shimmering-focus@@show-ribbon": false,
   "shimmering-focus@@no-floating-metadata": false,
@@ -14,5 +14,6 @@
   "shimmering-focus@@tab-width": 225,
   "shimmering-focus@@trim-long-filenames": false,
   "shimmering-focus@@overlaying-right-sidebar": false,
-  "shimmering-focus@@no-tabbar-header-hybrid": false
+  "shimmering-focus@@no-tabbar-header-hybrid": false,
+  "shimmering-focus@@hide-settings-button": false
 }

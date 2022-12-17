@@ -19,7 +19,7 @@ Why can I not simply redefine the transcendent as some other thing only one pers
 
 This goes into metaphysics of the transcendent? Then, need to understand the metaphysical necessities of the transcendent. 
 
-What if Jesus was just the first one to realize the transcendent was One/Non-dualist, then taught people and then they misinterpreted the teaching as ONLY god is the transcendent
+What if Jesus was just the first one to realize the transcendent was One/Non-dualistic, then taught people and then they misinterpreted the teaching as ONLY god is the transcendent
 
 1. The transcendent is a one/unity
 2. There is either a transcendent and the creation OR merely a transcendent // But the transcendent must be transcendent of *something*
@@ -30,4 +30,4 @@ What if Jesus was just the first one to realize the transcendent was One/Non-dua
 
 
 ## Categories
-1. [[Metaphysics]]
+1. [[🔅 METAPHYSICS]]

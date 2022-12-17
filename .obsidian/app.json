@@ -12,5 +12,6 @@
     "📋 Management/",
     "🏛️ Library/"
   ],
-  "showInlineTitle": false
+  "showInlineTitle": false,
+  "vimMode": false
 }
