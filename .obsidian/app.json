@@ -10,7 +10,8 @@
   "newFileLocation": "current",
   "userIgnoreFilters": [
     "📋 Management/",
-    "🏛️ Library/"
+    "🏛️ Library/",
+    "✅ Goals/"
   ],
   "showInlineTitle": false,
   "vimMode": false

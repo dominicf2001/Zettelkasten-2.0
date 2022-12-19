@@ -12,6 +12,7 @@
 	"filter": "#*Life* & /Medium Term"
 }
 ```
+
 # Long Term
 ```todoist
 {
