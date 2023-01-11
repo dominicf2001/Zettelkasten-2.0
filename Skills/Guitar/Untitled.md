@@ -22,3 +22,6 @@
 		* Only land on certain notes
 		* Improvise solo/melody then try to put chords under it, or vice versa
 		* Come up with own solo BASED ON a lifted solo
+
+# References
+- https://www.youtube.com/watch?v=566LrQfcqgE
