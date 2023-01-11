@@ -42,7 +42,7 @@ Symbol
 ---
 
 ## References
-1. [[🌀 Random High Thoughts (2)]]
+1. [[🌀 More Random Thoughts]]
 
 ## Categories
 1. [[Epistemology]]

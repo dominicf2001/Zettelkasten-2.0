@@ -80,7 +80,7 @@ Created: 2022-04-20 20:43
 		* May need to reorganize/subdivide
 
 * Maps of content
-	* [[📦 Notes/💭 Thought Notes/🌀 Random High Thoughts#Structuring Zettelkasten|Related Zettelkasten Structuring Ideas]]
+	* [[🌀 Random Thoughts#Structuring Zettelkasten|Related Zettelkasten Structuring Ideas]]
 	* Linked to other MOCs
 	* Replacement for a file system
 	* Jumping off points into knowledge base
