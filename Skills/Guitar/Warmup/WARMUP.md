@@ -1,4 +1,4 @@
-- **Time: 10 minutes**
+- **Time: 10-20 minutes**
 - Make it musical 
 	- Song or rhythm
 		- Perfecting a song already learned
