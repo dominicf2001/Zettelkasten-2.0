@@ -8,4 +8,7 @@
 	- [[Strumming Patterns]]
 		- Loosen grip on pick
 		- "Drunk hand"
+		- Keep track of tempo increase over time
+			- Increase by 5?
+		- 
 	

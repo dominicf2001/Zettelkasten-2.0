@@ -22,7 +22,7 @@
 	- Can always learn something, forever
 		- NEVER MASTER IT
 ## Classical Pattern
-[[https://www.youtube.com/watch?v=crhb8YaM5WI|How to do it]]
+[How to do it](https://www.youtube.com/watch?v=crhb8YaM5WI|How to do it)
 - Takes 60 seconds, do 3 times
 - Alternate:
 	- Major scale thirds
