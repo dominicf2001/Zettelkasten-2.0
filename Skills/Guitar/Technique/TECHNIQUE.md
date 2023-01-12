@@ -5,5 +5,6 @@
 - Rhythm
 - Bending
 - Chord changes
-- Spider
+- Spider-walk
 - Pulls offs, tapping, slides, etc
+- Pick accuracy
