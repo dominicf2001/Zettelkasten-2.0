@@ -6,5 +6,6 @@
 - Bending
 - Chord changes
 - Spider-walk
+- Vibrato
 - Pulls offs, tapping, slides, etc
 - Pick accuracy
