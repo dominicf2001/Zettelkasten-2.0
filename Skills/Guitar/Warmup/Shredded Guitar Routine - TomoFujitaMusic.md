@@ -11,7 +11,7 @@
 1 2 3 4
 	- Go up until 4th finger at 12th fret
 	- Do it on low E to high E 
-2 1 4 2
+2 1 4 3
 4 3 2 1
 	- Go down until 1st finger on 1st fret
 	- Do it on high E to low E
