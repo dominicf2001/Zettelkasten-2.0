@@ -5,4 +5,5 @@
 - Rhythm
 - Bending
 - Chord changes
-- 
+- Spider
+- Pulls offs, tapping, slides, etc
