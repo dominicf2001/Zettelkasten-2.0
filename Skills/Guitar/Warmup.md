@@ -4,3 +4,4 @@
 		- Perfecting a song already learned
 	- *Conscious/attentive* backing track improvisation
 		- Chord changes
+	- [[Shredded Guitar Routine - TomoFujitaMusic]]
