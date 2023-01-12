@@ -5,5 +5,7 @@
   "templater-obsidian",
   "obsidian-git",
   "obsidian-style-settings",
-  "todoist-sync-plugin"
+  "todoist-sync-plugin",
+  "obsidian-linter",
+  "obsidian-charts"
 ]

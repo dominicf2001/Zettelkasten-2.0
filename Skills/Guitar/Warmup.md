@@ -5,4 +5,7 @@
 	- *Conscious/attentive* backing track improvisation
 		- Chord changes
 	- [[Shredded Guitar Routine - TomoFujitaMusic|tomo's routine]]
+	- [[Strumming Patterns]]
+		- Loosen grip on pick
+		- "Drunk hand"
 	
