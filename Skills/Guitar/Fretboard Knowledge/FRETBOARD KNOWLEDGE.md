@@ -7,10 +7,10 @@
 - Scale degrees
 - Roots all over neck
 	- [MusicTheoryForGuitar Exercise](https://www.youtube.com/watch?v=PJddQ6Q0UDo&t=547s)
-	- 
 - CAGED
 	- Guitar Zen Course
 - Memorizing notes
 - Learning new chords
 - Chord tones
+	- [MTFG chor tone course](https://www.musictheoryforguitar.com/myaccount)
 - 
