@@ -3,7 +3,6 @@
 - Scales/modes
 - Intervals
 	- [[Intervals or Notes - MusicTheoryForGuitar]]
-	- 
 - Scale degrees
 - Roots all over neck
 	- [MusicTheoryForGuitar Exercise](https://www.youtube.com/watch?v=PJddQ6Q0UDo&t=547s)
@@ -12,5 +11,5 @@
 - Memorizing notes
 - Learning new chords
 - Chord tones
-	- [MTFG chor tone course](https://www.musictheoryforguitar.com/myaccount)
+	- [MTFG chord tone course](https://www.musictheoryforguitar.com/myaccount)
 - 

@@ -1,0 +1,1 @@
+- Playing notes on scale over certain chords

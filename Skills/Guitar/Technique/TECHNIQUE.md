@@ -4,7 +4,7 @@
 - Strumming patterns
 - Rhythm
 	- [Metronome boot camp](https://learn.guitaros.com/courses/377490/lectures/5844308)
-	- 
+	- Recording onto computer
 - Bending
 - Chord changes
 - Spider-walk
