@@ -2,6 +2,9 @@
 - Triads
 - Scales/modes
 - Intervals
+	- [[Intervals or Notes - MusicTheoryForGuitar]]
+	- 
+- Scale degrees
 - Roots all over neck
 	- [MusicTheoryForGuitar Exercise](https://www.youtube.com/watch?v=PJddQ6Q0UDo&t=547s)
 	- 

@@ -9,3 +9,4 @@
 - Vibrato
 - Pulls offs, tapping, slides, etc
 - Pick accuracy
+- String skipping
