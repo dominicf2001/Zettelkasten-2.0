@@ -3,6 +3,8 @@
 - Fret patterns
 - Strumming patterns
 - Rhythm
+	- [Metronome boot camp](https://learn.guitaros.com/courses/377490/lectures/5844308)
+	- 
 - Bending
 - Chord changes
 - Spider-walk
