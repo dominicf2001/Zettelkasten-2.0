@@ -4,3 +4,11 @@
 > 
 > If you want to master something, teach.”
 
+- Benson picking
+- Rest strokes
+- Strategic alternate picking
+- Upstroke "releases"
+
+# Resources
+- https://fretboardanatomy.com/picking/
+- https://fretboardanatomy.com/pickingprinciples/
