@@ -12,3 +12,4 @@
 - Pulls offs, tapping, slides, etc
 - Pick accuracy
 - String skipping
+- [[Picking Tips|Major Scale picking exercise]]
