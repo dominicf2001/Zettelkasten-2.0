@@ -13,3 +13,4 @@
 - Pick accuracy
 - String skipping
 - [[Picking Tips|Major Scale picking exercise]]
+- Hybrid picking
