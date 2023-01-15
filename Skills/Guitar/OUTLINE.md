@@ -11,4 +11,5 @@
 6. [String skipping](https://www.guitarplayer.com/lessons/making-the-jump-how-to-master-the-art-of-string-skipping) **5 min**
 7. [Bending and vibrato](https://www.google.com/search?client=firefox-b-1-d&q=bending+excersise+guitar#kpvalbx=_vf3CY4nfKpeg5NoPnZuXiA8_29) **5 min**
 # Ear Training and Theory
-1. 
+1. [Justinguitar Ear Training course](1. [Justinguitar Ear Training course]())
+2. 
