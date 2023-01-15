@@ -1,4 +1,4 @@
-- **3 minutes per exercise (15 min total)**
+- **3 minutes per exercise (9 min total)**
 ## Basic Chromatic
 1 2 1 2 -  3 2 1 2 - 3 4 3 2 - 1 2 3 4
 	- Go up until 4th finger at 12th fret
@@ -21,14 +21,6 @@
 - ALWAYS THINK HOW YOU CAN DO IT BETTER
 	- Can always learn something, forever
 		- NEVER MASTER IT
-## Classical Pattern
-[How to do it](https://www.youtube.com/watch?v=crhb8YaM5WI|How to do it)
-- Takes 60 seconds, do 3 times
-- Alternate:
-	- Major scale thirds
-	- Do-re-mi...
-# Root-third-seven swing
-- Strum wide
 
 # Reference
 - https://www.youtube.com/watch?v=V5TdEszM1u0

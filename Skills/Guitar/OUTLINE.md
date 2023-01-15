@@ -1,5 +1,5 @@
-# [[WARMUP]] **20 min**
-1. [[Shredded Guitar Routine - TomoFujitaMusic|Tomo's Warmup]] **15 min**
+# [[WARMUP]] **15 min**
+1. [[Shredded Guitar Routine - TomoFujitaMusic|Tomo's Warmup]] **10 min**
 2. - [Strumming patterns](https://www.guitarlobby.com/wp-content/uploads/2021/04/Guitar-Strumming-Patterns-PDF-with-Charts.pdf) **5 min**
 # Technique **30 min**
 1. Spider-walk **3 min**
