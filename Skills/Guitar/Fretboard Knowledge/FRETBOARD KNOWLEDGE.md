@@ -1,11 +1,10 @@
 **Time: 20 Minutes**
-- Triads
+-[[Triad Exercises - Jens Larsen]]
 - Scales/modes
 - Intervals
 	- [[Intervals or Notes - MusicTheoryForGuitar]]
 - Scale degrees
-- Roots all over neck
-	- [MusicTheoryForGuitar Exercise](https://www.youtube.com/watch?v=PJddQ6Q0UDo&t=547s)
+- [Roots all over neck](https://www.youtube.com/watch?v=PJddQ6Q0UDo)
 - CAGED
 	- Guitar Zen Course
 - Memorizing notes
