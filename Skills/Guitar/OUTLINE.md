@@ -13,7 +13,9 @@
 # Ear Training and Theory
 1. [Justinguitar Ear Training course](1. [Justinguitar Ear Training course]())
 2. [Brush up on basic theory](https://www.musictheory.net/)
-3. [[Intervals or Notes - MusicTheoryForGuitar|Memorize interv]]
+3. [[Intervals or Notes - MusicTheoryForGuitar|Memorize intervals]]
 # Knowledge
 1. [[Triad Exercises - Jens Larsen]]
 2. [MTFG chord tone course](https://www.musictheoryforguitar.com/myaccount)
+3. [Roots all over neck](https://www.youtube.com/watch?v=PJddQ6Q0UDo)
+4. Play specific intervals up and down scales
