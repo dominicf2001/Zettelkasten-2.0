@@ -12,4 +12,8 @@
 7. [Bending and vibrato](https://www.google.com/search?client=firefox-b-1-d&q=bending+excersise+guitar#kpvalbx=_vf3CY4nfKpeg5NoPnZuXiA8_29) **5 min**
 # Ear Training and Theory
 1. [Justinguitar Ear Training course](1. [Justinguitar Ear Training course]())
-2. 
+2. [Brush up on basic theory](https://www.musictheory.net/)
+3. [[Intervals or Notes - MusicTheoryForGuitar|Memorize interv]]
+# Knowledge
+1. [[Triad Exercises - Jens Larsen]]
+2. [MTFG chord tone course](https://www.musictheoryforguitar.com/myaccount)
