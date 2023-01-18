@@ -18,6 +18,11 @@
 	BPM: 55
 # Ear Training and Theory
 1. [Justinguitar Ear Training course](https://www.justinguitar.com/classes/ear-training)
+	- Try to play a song I know **5 min**
+		- Play it *right* in different positions
+	- Play a note find it with voice
+	- Sing from one note to another
+		- Start early
 2. [Brush up on basic theory](https://www.musictheory.net/)
 3. [[Intervals or Notes - MusicTheoryForGuitar|Memorize intervals]]
 # Knowledge
