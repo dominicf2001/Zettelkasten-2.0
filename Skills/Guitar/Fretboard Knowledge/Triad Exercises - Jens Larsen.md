@@ -14,3 +14,4 @@
 	- Starting from first root to next and so on
 # Reference
 - https://www.youtube.com/watch?v=Buta15gu64Q
+- https://jenslarsen.nl/the-best-triad-exercises-how-to-get-the-essentials-right/
