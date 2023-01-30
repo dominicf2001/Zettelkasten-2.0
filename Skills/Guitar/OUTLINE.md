@@ -1,6 +1,6 @@
 # [[WARMUP]] **15 min**
 1. [[Shredded Guitar Routine - TomoFujitaMusic|Tomo's Warmup]] **10 min**
-	BPM: 65
+	BPM: 70
 2. [Strumming patterns](https://www.guitarlobby.com/wp-content/uploads/2021/04/Guitar-Strumming-Patterns-PDF-with-Charts.pdf) **5 min**
 	BPM: 40
 # Technique **30 min**
