@@ -2,10 +2,10 @@
 1. [[Shredded Guitar Routine - TomoFujitaMusic|Tomo's Warmup]] **10 min**
 	BPM: 70
 2. [Strumming patterns](https://www.guitarlobby.com/wp-content/uploads/2021/04/Guitar-Strumming-Patterns-PDF-with-Charts.pdf) **5 min**
-	BPM: 40
+	BPM: 45
 # Technique **30 min**
 1. Spider-walk **3 min**
-	BPM: 55
+	BPM: 60
 1. Chord changes **5 min**
 	BPM: 55
 2. [[Picking Tips|Major Scale picking exercise]] (eighth) **3 min**
