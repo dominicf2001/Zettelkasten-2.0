@@ -1,10 +1,11 @@
 {
   "baseFontSize": 21,
-  "cssTheme": "Shimmering Focus",
+  "cssTheme": "",
   "textFontFamily": "",
   "interfaceFontFamily": "",
   "accentColor": "",
   "showViewHeader": true,
   "nativeMenus": false,
-  "translucency": false
+  "translucency": false,
+  "theme": "system"
 }
