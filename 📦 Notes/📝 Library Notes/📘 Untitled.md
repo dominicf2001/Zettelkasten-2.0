@@ -21,7 +21,21 @@ Created: 2023-03-04
 	- Spiritual over material
 
 ## Chapter 2: The Worlds First Democrat 
-- 
+- Akhnato, Pharaoh of Egypt, 1388 B.C.
+- Courageously opposed the priesthood, founding is own religion of Atonism. 
+- Aton is a fatherly, loving god who has created all things.
+	- All things have the presence of God within them
+	- All things are equally worthy of life, free will, aspirations
+- Encouraged pacifism, democracy
+- Traveled the lands and treated all of the citizens with equal respect, no matter their class
+- His lands were invaded, did not fight back
+- Only pharaoh to not display himself on his tombstone as a conqueror
+	- Instead as a loving father and husband
+	- "The first man in history who dared to dream of the Brotherhood of Men, and he cheerfully gave his life and his empire for that dream"
+ 
+## Chapter 3:  
+ 
+ 
 ## Reference
 1. 
 
