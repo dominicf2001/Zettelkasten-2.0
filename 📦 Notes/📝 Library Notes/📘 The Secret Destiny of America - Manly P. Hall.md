@@ -36,7 +36,7 @@ Created: 2023-03-04
 ## Chapter 3: Westward Ocean Travel to the Earthly Paradise
 - Plutarchs account of America
 - Boat construction was far more than capable of reaching the Americas before Christ
-- Plutarchs account of America
+- Plutarch' s account of America
 - Plato's account of westward travel
 - Hesperic Isles myth
 - Myth of the Golden Fleece, realized as:
@@ -48,7 +48,25 @@ Created: 2023-03-04
 	- This leads to a world democratic government
  
 ## Chapter 4: The First Election of Law-Makers
-- 
+- Solon of Athens
+	- Elected as Athenian Archon in mid 6th century BC
+	- Made vast political reforms
+		- Changed the caste system
+		- Equalized taxes for the lesser classes
+		- Disassembled the current debt system
+		- Provided a means of representation for people of lower class
+			- 
+	- His reforms vastly benefited the poorer classes and  aggrieved the privileged 
+	- Made many enemies
+- When Solon renounced his position of power he traveled to Egypt in search of knowledge
+	- Spoke to high priests who led him to a temple
+	- Traveled by boat in underground chamber of temple
+	- Told him of an advanced civilization prior to Troy which ruled over the entire world
+		- Ruled by 7 kings
+	- 7 kings angered the gods when they went to war the ancient Greeks in pursuit of total control
+		- Gods killed 60 million humans
+	- In the water were two metal pillars that were inscribed with laws ordained by nature teaching how to rule a nation
+	- Solon passed his story down through blood down to Critias, which then told the story in a Platonic dialogue (Atlantis)
  
  
 ## Reference
