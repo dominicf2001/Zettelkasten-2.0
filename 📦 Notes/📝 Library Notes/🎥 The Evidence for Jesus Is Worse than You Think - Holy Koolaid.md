@@ -4,7 +4,7 @@ aliases:
 ---
 
 
-The Evidence for Jesus Is Worse than You Think
+# The Evidence for Jesus Is Worse than You Think
 Created: 2022-05-16
 
 - Papyrus 137 "dated to 80 A.D."
@@ -38,7 +38,7 @@ Created: 2022-05-16
 - Evidence for Jesus' **existence** is pretty good for other historical figures from his era or before
 	- The sufficient amount of evidence required for figures this far back is very low
 	- This kind of evidence is **not sufficient** to establish him as God
-		- Psychological manipulation highly prevalent 
+		- Psychological manipulation highly prevalent
 	- If we accept the *miraculous* accounts of Jesus, we would then have to accept the *miraculous* accounts of Caesar and other similar figures
 ## Reference
 1. https://www.youtube.com/watch?v=PGHOp-9yAbA&ab_channel=HolyKoolaid

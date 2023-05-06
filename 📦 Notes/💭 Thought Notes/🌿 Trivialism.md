@@ -1,6 +1,6 @@
 ---
 tags: 📦/💭/🌿
-aliases: 
+aliases:
 ---
 # Trivialism
 Created: 2022-05-01 12:53

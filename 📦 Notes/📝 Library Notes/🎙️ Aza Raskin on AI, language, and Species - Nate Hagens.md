@@ -12,7 +12,7 @@ Created: 2022-08-25
 	- Faster GPUs good for matrix calculations furthered AI development
 - Important aspect of AI is language prediction based on specific input (fill in the blank)
 	- Can think about geometrically with vectors
-		- Relationship between man and king has certain vector distance and direction. This vector distance and direction would be almost identical for relationship between woman and queen 
+		- Relationship between man and king has certain vector distance and direction. This vector distance and direction would be almost identical for relationship between woman and queen
 - Vector distances and directions represent some kind of relationship which can be applied(added/subtracted) across a multitude of words. For each word the vector is applied to, you then get a result of similar relationship. (Example: pretentiousness)
 - Similar vector mappings across languages, points towards universality
 - Paradoxicality of technological progress
@@ -36,10 +36,10 @@ Created: 2022-08-25
 - Chat bots will far surpass brittle human relationships
 	- They become coping mechanisms
 - Collective human wisdom is outpaced by technological progress
-	- We can hopefully use technology to hyper accelerate our collective wisdom to keep pace 
+	- We can hopefully use technology to hyper accelerate our collective wisdom to keep pace
 - Benefits
 	- Massively decreases time between abstract thought and generation into reality
-	- Can have AI tutors based on the work of the worlds smartest minds 
+	- Can have AI tutors based on the work of the worlds smartest minds
 
 ## Reference
 1. https://youtu.be/xsE51MLNMvc

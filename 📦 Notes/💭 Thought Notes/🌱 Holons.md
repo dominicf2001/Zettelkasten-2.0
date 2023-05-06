@@ -1,6 +1,6 @@
-- ---
+---
 tags: 📦/💭/🌱
-aliases: 
+aliases:
 ---
 # Holons
 Created: 2022-05-10 19:06
@@ -9,7 +9,7 @@ Created: 2022-05-10 19:06
 	- Objects subjectively conceptualized
 
 ## References
-1. 
+1.
 
 ## Categories
 1. [[Metaphysics]]

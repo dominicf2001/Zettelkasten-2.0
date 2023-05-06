@@ -50,7 +50,7 @@ Created: 2022-04-20 19:58
 * Curation (To take items out of a collection and organize them in some way)
 	* Zettelkasten link traversal
 		* Can use multi-panel view to mimic laying out notes on a desk
-			* Notes on the same level together 
+			* Notes on the same level together
 	* Mark notes for future review
 
 ## Reference

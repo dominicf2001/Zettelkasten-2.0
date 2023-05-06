@@ -21,7 +21,7 @@ Created:2022-04-08 13:25
 	* Handles complexity
 	* Makes writing easier
 	* Streamlines workflow
-* Zettels 
+* Zettels
 	* Atomic Information
 		* One thought per zettel
 		* Use "**A7 tear-off notepad**" when reading as zettels
