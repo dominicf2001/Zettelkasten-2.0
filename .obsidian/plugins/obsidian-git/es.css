@@ -1,0 +1,487 @@
+@keyframes loading {
+    % {
+        transform: rotate(deg);
+    }
+
+    % {
+        transform: rotate(deg);
+    }
+}
+
+.workspace-leaf-content[data-type='git-view'] .view-content {
+    padding: ;
+}
+
+.workspace-leaf-content[data-type='git-history-view'] .view-content {
+    padding: ;
+}
+
+.loading>svg {
+    animation: s linear infinite loading;
+    transform-origin: % %;
+    display: inline-block;
+}
+
+.obsidian-git-center {
+    margin: auto;
+    text-align: center;
+    width: %;
+}
+
+.obsidian-git-textarea {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.obsidian-git-center-button {
+    display: block;
+    margin: px auto;
+}
+
+.tooltip.mod-left {
+    overflow-wrap: break-word;
+}
+
+.tooltip.mod-right {
+    overflow-wrap: break-word;
+}
+.git-tools {
+    display: flex;
+    margin-left: auto;
+}
+.git-tools .type {
+    padding-left: var(--size--);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: px;
+}
+
+.git-tools .type[data-type="M"] {
+    color: orange;
+}
+.git-tools .type[data-type="D"] {
+    color: red;
+}
+.git-tools .buttons {
+    display: flex;
+}
+.git-tools .buttons >  {
+    padding:  ;
+    height: auto;
+}
+
+.workspace-leaf-content[data-type="diff-view"] .dh-d-none {
+    display: none;
+}
+
+.workspace-leaf-content[data-type="diff-view"] .dh-wrapper {
+    text-align: left;
+}
+
+.workspace-leaf-content[data-type="diff-view"] .dh-file-header {
+    background-color: var(--background-primary);
+    border-bottom: px solid var(--interactive-accent);
+    font-family: var(--font-monospace);
+    height: px;
+    padding: px px;
+}
+
+.workspace-leaf-content[data-type="diff-view"] .dh-file-header,
+.workspace-leaf-content[data-type="diff-view"] .dh-file-stats {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.workspace-leaf-content[data-type="diff-view"] .dh-file-stats {
+    font-size: px;
+    margin-left: auto;
+}
+
+.workspace-leaf-content[data-type="diff-view"] .dh-lines-added {
+    border: px solid beb;
+    border-radius: px   px;
+    color: ;
+    padding: px;
+    text-align: right;
+    vertical-align: middle;
+}
+
+.workspace-leaf-content[data-type="diff-view"] .dh-lines-deleted {
+    border: px solid eaeae;
+    border-radius:  px px ;
+    color: c;
+    margin-left: px;
+    padding: px;
+    text-align: left;
+    vertical-align: middle;
+}
+
+.workspace-leaf-content[data-type="diff-view"] .dh-file-name-wrapper {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-size: px;
+    width: %;
+}
+
+.workspace-leaf-content[data-type="diff-view"] .dh-file-name {
+    overflow-x: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.workspace-leaf-content[data-type="diff-view"] .dh-file-wrapper {
+    border: px solid var(--background-modifier-border);
+    border-radius: px;
+    margin-bottom: em;
+}
+
+.workspace-leaf-content[data-type="diff-view"] .dh-file-collapse {
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    border: px solid var(--background-modifier-border);
+    border-radius: px;
+    cursor: pointer;
+    display: none;
+    font-size: px;
+    justify-content: flex-end;
+    padding: px px;
+}
+
+.workspace-leaf-content[data-type="diff-view"] .dh-file-collapse.dh-selected {
+    background-color: ceff;
+}
+
+.workspace-leaf-content[data-type="diff-view"] .dh-file-collapse-input {
+    margin:  px  ;
+}
+
+.workspace-leaf-content[data-type="diff-view"] .dh-diff-table {
+    border-collapse: collapse;
+    font-family: Menlo, Consolas, monospace;
+    font-size: px;
+    width: %;
+}
+
+.workspace-leaf-content[data-type="diff-view"] .dh-files-diff {
+    width: %;
+}
+
+.workspace-leaf-content[data-type="diff-view"] .dh-file-diff {
+    overflow-y: hidden;
+}
+
+.workspace-leaf-content[data-type="diff-view"] .dh-file-side-diff {
+    display: inline-block;
+    margin-bottom: -px;
+    margin-right: -px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    width: %;
+}
+
+.workspace-leaf-content[data-type="diff-view"] .dh-code-line {
+    padding:  em;
+}
+
+.workspace-leaf-content[data-type="diff-view"] .dh-code-line,
+.workspace-leaf-content[data-type="diff-view"] .dh-code-side-line {
+    display: inline-block;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    white-space: nowrap;
+    width: %;
+}
+
+.workspace-leaf-content[data-type="diff-view"] .dh-code-side-line {
+    padding:  .em;
+}
+
+.workspace-leaf-content[data-type="diff-view"] .dh-code-line-ctn {
+    word-wrap: normal;
+    background: none;
+    display: inline-block;
+    padding: ;
+    -webkit-user-select: text;
+    -moz-user-select: text;
+    -ms-user-select: text;
+    user-select: text;
+    vertical-align: middle;
+    white-space: pre;
+    width: %;
+}
+
+.theme-light .workspace-leaf-content[data-type="diff-view"] .dh-code-line del,
+.theme-light .workspace-leaf-content[data-type="diff-view"] .dh-code-side-line del {
+    background-color: ffbba;
+}
+
+.theme-dark .workspace-leaf-content[data-type="diff-view"] .dh-code-line del,
+.theme-dark .workspace-leaf-content[data-type="diff-view"] .dh-code-side-line del {
+    background-color: d;
+}
+
+.workspace-leaf-content[data-type="diff-view"] .dh-code-line del,
+.workspace-leaf-content[data-type="diff-view"] .dh-code-line ins,
+.workspace-leaf-content[data-type="diff-view"] .dh-code-side-line del,
+.workspace-leaf-content[data-type="diff-view"] .dh-code-side-line ins {
+    border-radius: .em;
+    display: inline-block;
+    margin-top: -px;
+    text-decoration: none;
+    vertical-align: middle;
+}
+
+.theme-light .workspace-leaf-content[data-type="diff-view"] .dh-code-line ins,
+.theme-light .workspace-leaf-content[data-type="diff-view"] .dh-code-side-line ins {
+    background-color: f;
+    text-align: left;
+}
+
+.theme-dark .workspace-leaf-content[data-type="diff-view"] .dh-code-line ins,
+.theme-dark .workspace-leaf-content[data-type="diff-view"] .dh-code-side-line ins {
+    background-color: d;
+    text-align: left;
+}
+
+.workspace-leaf-content[data-type="diff-view"] .dh-code-line-prefix {
+    word-wrap: normal;
+    background: none;
+    display: inline;
+    padding: ;
+    white-space: pre;
+}
+
+.workspace-leaf-content[data-type="diff-view"] .line-num {
+    float: left;
+}
+
+.workspace-leaf-content[data-type="diff-view"] .line-num,
+.workspace-leaf-content[data-type="diff-view"] .line-num {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    overflow: hidden;
+    padding:  .em;
+    text-overflow: ellipsis;
+    width: .em;
+}
+
+.workspace-leaf-content[data-type="diff-view"] .line-num {
+    float: right;
+}
+
+.workspace-leaf-content[data-type="diff-view"] .dh-code-linenumber {
+    background-color: var(--background-primary);
+    border: solid var(--background-modifier-border);
+    border-width:  px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    color: var(--text-muted);
+    cursor: pointer;
+    display: inline-block;
+    position: absolute;
+    text-align: right;
+    width: .em;
+}
+
+.workspace-leaf-content[data-type="diff-view"] .dh-code-linenumber:after {
+    content: "\b";
+}
+
+.workspace-leaf-content[data-type="diff-view"] .dh-code-side-linenumber {
+    background-color: var(--background-primary);
+    border: solid var(--background-modifier-border);
+    border-width:  px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    color: var(--text-muted);
+    cursor: pointer;
+    display: inline-block;
+    overflow: hidden;
+    padding:  .em;
+    position: absolute;
+    text-align: right;
+    text-overflow: ellipsis;
+    width: em;
+}
+
+.workspace-leaf-content[data-type="diff-view"] .dh-diff-tbody tr {
+    position: relative;
+}
+
+.workspace-leaf-content[data-type="diff-view"] .dh-code-side-linenumber:after {
+    content: "\b";
+}
+
+.workspace-leaf-content[data-type="diff-view"] .dh-code-side-emptyplaceholder,
+.workspace-leaf-content[data-type="diff-view"] .dh-emptyplaceholder {
+    background-color: var(--background-primary);
+    border-color: var(--background-modifier-border);
+}
+
+.workspace-leaf-content[data-type="diff-view"] .dh-code-line-prefix,
+.workspace-leaf-content[data-type="diff-view"] .dh-code-linenumber,
+.workspace-leaf-content[data-type="diff-view"] .dh-code-side-linenumber,
+.workspace-leaf-content[data-type="diff-view"] .dh-emptyplaceholder {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.workspace-leaf-content[data-type="diff-view"] .dh-code-linenumber,
+.workspace-leaf-content[data-type="diff-view"] .dh-code-side-linenumber {
+    direction: rtl;
+}
+
+.theme-light .workspace-leaf-content[data-type="diff-view"] .dh-del {
+    background-color: feee;
+    border-color: eaeae;
+}
+
+.theme-light .workspace-leaf-content[data-type="diff-view"] .dh-ins {
+    background-color: dfd;
+    border-color: beb;
+}
+
+.theme-dark .workspace-leaf-content[data-type="diff-view"] .dh-del {
+    background-color: bd;
+    border-color: dd;
+}
+
+.theme-dark .workspace-leaf-content[data-type="diff-view"] .dh-ins {
+    background-color: rgba(, , , .);
+    border-color: ;
+}
+
+.workspace-leaf-content[data-type="diff-view"] .dh-info {
+    background-color: var(--background-primary);
+    border-color: var(--background-modifier-border);
+    color: var(--text-normal);
+}
+
+.theme-light .workspace-leaf-content[data-type="diff-view"] .dh-file-diff .dh-del.dh-change {
+    background-color: fdfd;
+}
+
+.theme-dark .workspace-leaf-content[data-type="diff-view"] .dh-file-diff .dh-del.dh-change {
+    background-color: ;
+}
+
+.theme-light .workspace-leaf-content[data-type="diff-view"] .dh-file-diff .dh-ins.dh-change {
+    background-color: ded;
+}
+
+.theme-dark .workspace-leaf-content[data-type="diff-view"] .dh-file-diff .dh-ins.dh-change {
+    background-color: rgba(, , , .);
+}
+
+.workspace-leaf-content[data-type="diff-view"] .dh-file-list-wrapper {
+    margin-bottom: px;
+}
+
+.workspace-leaf-content[data-type="diff-view"] .dh-file-list-wrapper a {
+    color: b;
+    text-decoration: none;
+}
+
+.workspace-leaf-content[data-type="diff-view"] .dh-file-list-wrapper a:visited {
+    color: b;
+}
+
+.workspace-leaf-content[data-type="diff-view"] .dh-file-list-header {
+    text-align: left;
+}
+
+.workspace-leaf-content[data-type="diff-view"] .dh-file-list-title {
+    font-weight: ;
+}
+
+.workspace-leaf-content[data-type="diff-view"] .dh-file-list-line {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    text-align: left;
+}
+
+.workspace-leaf-content[data-type="diff-view"] .dh-file-list {
+    display: block;
+    list-style: none;
+    margin: ;
+    padding: ;
+}
+
+.workspace-leaf-content[data-type="diff-view"] .dh-file-list>li {
+    border-bottom: px solid var(--background-modifier-border);
+    margin: ;
+    padding: px px;
+}
+
+.workspace-leaf-content[data-type="diff-view"] .dh-file-list>li:last-child {
+    border-bottom: none;
+}
+
+.workspace-leaf-content[data-type="diff-view"] .dh-file-switch {
+    cursor: pointer;
+    display: none;
+    font-size: px;
+}
+
+.workspace-leaf-content[data-type="diff-view"] .dh-icon {
+    fill: currentColor;
+    margin-right: px;
+    vertical-align: middle;
+}
+
+.workspace-leaf-content[data-type="diff-view"] .dh-deleted {
+    color: c;
+}
+
+.workspace-leaf-content[data-type="diff-view"] .dh-added {
+    color: ;
+}
+
+.workspace-leaf-content[data-type="diff-view"] .dh-changed {
+    color: dbc;
+}
+
+.workspace-leaf-content[data-type="diff-view"] .dh-moved {
+    color: b;
+}
+
+.workspace-leaf-content[data-type="diff-view"] .dh-tag {
+    background-color: var(--background-primary);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-size: px;
+    margin-left: px;
+    padding:  px;
+}
+
+.workspace-leaf-content[data-type="diff-view"] .dh-deleted-tag {
+    border: px solid c;
+}
+
+.workspace-leaf-content[data-type="diff-view"] .dh-added-tag {
+    border: px solid ;
+}
+
+.workspace-leaf-content[data-type="diff-view"] .dh-changed-tag {
+    border: px solid dbc;
+}
+
+.workspace-leaf-content[data-type="diff-view"] .dh-moved-tag {
+    border: px solid b;
+}

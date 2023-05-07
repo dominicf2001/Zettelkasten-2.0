@@ -1,0 +1,405 @@
+{
+  "folder": "📦 Notes/✏️ Excalidraw Notes",
+  "embedUseExcalidrawFolder": false,
+  "templateFilePath": "📋 Management/🏷️ Templates/✏️ Excalidraw Template",
+  "scriptFolderPath": "Excalidraw/Scripts",
+  "compress": false,
+  "autosave": true,
+  "autosaveInterval": ,
+  "autosaveIntervalDesktop": ,
+  "autosaveIntervalMobile": ,
+  "drawingFilenamePrefix": "✏️",
+  "drawingEmbedPrefixWithFilename": true,
+  "drawingFilnameEmbedPostfix": " ",
+  "drawingFilenameDateTime": "",
+  "useExcalidrawExtension": false,
+  "displaySVGInPreview": true,
+  "displayExportedImageIfAvailable": false,
+  "previewMatchObsidianTheme": false,
+  "width": "",
+  "dynamicStyling": "colorful",
+  "isLeftHanded": false,
+  "matchTheme": false,
+  "matchThemeAlways": true,
+  "matchThemeTrigger": false,
+  "defaultMode": "normal",
+  "defaultPenMode": "never",
+  "allowPinchZoom": false,
+  "allowWheelZoom": false,
+  "zoomToFitOnOpen": true,
+  "zoomToFitOnResize": true,
+  "zoomToFitMaxLevel": ,
+  "linkPrefix": "📍",
+  "urlPrefix": "🌐",
+  "parseTODO": false,
+  "todo": "☐",
+  "done": "🗹",
+  "hoverPreviewWithoutCTRL": false,
+  "linkOpacity": ,
+  "openInAdjacentPane": false,
+  "openInMainWorkspace": true,
+  "showLinkBrackets": true,
+  "allowCtrlClick": true,
+  "forceWrap": false,
+  "pageTransclusionCharLimit": ,
+  "wordWrappingDefault": ,
+  "removeTransclusionQuoteSigns": true,
+  "iframelyAllowed": true,
+  "pngExportScale": ,
+  "exportWithTheme": true,
+  "exportWithBackground": true,
+  "exportPaddingSVG": ,
+  "keepInSync": false,
+  "autoexportSVG": false,
+  "autoexportPNG": false,
+  "autoExportLightAndDark": false,
+  "autoexportExcalidraw": false,
+  "embedType": "excalidraw",
+  "embedWikiLink": true,
+  "syncExcalidraw": false,
+  "experimentalFileType": false,
+  "experimentalFileTag": "✏️",
+  "experimentalLivePreview": true,
+  "experimentalEnableFourthFont": false,
+  "experimantalFourthFont": "Virgil",
+  "fieldSuggester": true,
+  "compatibilityMode": false,
+  "drawingOpenCount": ,
+  "library": "deprecated",
+  "library": {
+    "type": "excalidrawlib",
+    "version": ,
+    "source": "https://excalidraw.com",
+    "libraryItems": []
+  },
+  "imageElementNotice": true,
+  "mdSVGwidth": ,
+  "mdSVGmaxHeight": ,
+  "mdFont": "Virgil",
+  "mdFontColor": "Black",
+  "mdBorderColor": "Black",
+  "mdCSS": "",
+  "scriptEngineSettings": {},
+  "defaultTrayMode": false,
+  "previousRelease": "..",
+  "showReleaseNotes": true,
+  "showNewVersionNotification": true,
+  "mathjaxSourceURL": "https://cdn.jsdelivr.net/npm/mathjax@../es/tex-svg.js",
+  "latexBoilerplate": "\\color{blue}",
+  "taskboneEnabled": false,
+  "taskboneAPIkey": "",
+  "pinnedScripts": [],
+  "customPens": [
+    {
+      "type": "default",
+      "freedrawOnly": false,
+      "strokeColor": "",
+      "backgroundColor": "transparent",
+      "fillStyle": "hachure",
+      "strokeWidth": ,
+      "roughness": ,
+      "penOptions": {
+        "highlighter": false,
+        "constantPressure": false,
+        "hasOutline": false,
+        "outlineWidth": ,
+        "options": {
+          "thinning": .,
+          "smoothing": .,
+          "streamline": .,
+          "easing": "easeOutSine",
+          "start": {
+            "cap": true,
+            "taper": ,
+            "easing": "linear"
+          },
+          "end": {
+            "cap": true,
+            "taper": ,
+            "easing": "linear"
+          }
+        }
+      }
+    },
+    {
+      "type": "highlighter",
+      "freedrawOnly": true,
+      "strokeColor": "FFCC",
+      "backgroundColor": "FFCC",
+      "fillStyle": "solid",
+      "strokeWidth": ,
+      "roughness": null,
+      "penOptions": {
+        "highlighter": true,
+        "constantPressure": true,
+        "hasOutline": true,
+        "outlineWidth": ,
+        "options": {
+          "thinning": ,
+          "smoothing": .,
+          "streamline": .,
+          "easing": "linear",
+          "start": {
+            "taper": ,
+            "cap": true,
+            "easing": "linear"
+          },
+          "end": {
+            "taper": ,
+            "cap": true,
+            "easing": "linear"
+          }
+        }
+      }
+    },
+    {
+      "type": "finetip",
+      "freedrawOnly": false,
+      "strokeColor": "EFD",
+      "backgroundColor": "transparent",
+      "fillStyle": "hachure",
+      "strokeWidth": .,
+      "roughness": ,
+      "penOptions": {
+        "highlighter": false,
+        "hasOutline": false,
+        "outlineWidth": ,
+        "constantPressure": true,
+        "options": {
+          "smoothing": .,
+          "thinning": -.,
+          "streamline": .,
+          "easing": "linear",
+          "start": {
+            "taper": ,
+            "cap": false,
+            "easing": "linear"
+          },
+          "end": {
+            "taper": ,
+            "cap": false,
+            "easing": "linear"
+          }
+        }
+      }
+    },
+    {
+      "type": "fountain",
+      "freedrawOnly": false,
+      "strokeColor": "",
+      "backgroundColor": "transparent",
+      "fillStyle": "hachure",
+      "strokeWidth": ,
+      "roughness": ,
+      "penOptions": {
+        "highlighter": false,
+        "constantPressure": false,
+        "hasOutline": false,
+        "outlineWidth": ,
+        "options": {
+          "smoothing": .,
+          "thinning": .,
+          "streamline": .,
+          "easing": "easeInOutSine",
+          "start": {
+            "taper": ,
+            "cap": true,
+            "easing": "linear"
+          },
+          "end": {
+            "taper": ,
+            "cap": true,
+            "easing": "linear"
+          }
+        }
+      }
+    },
+    {
+      "type": "marker",
+      "freedrawOnly": true,
+      "strokeColor": "BEE",
+      "backgroundColor": "FFCC",
+      "fillStyle": "dashed",
+      "strokeWidth": ,
+      "roughness": ,
+      "penOptions": {
+        "highlighter": false,
+        "constantPressure": true,
+        "hasOutline": true,
+        "outlineWidth": ,
+        "options": {
+          "thinning": ,
+          "smoothing": .,
+          "streamline": .,
+          "easing": "linear",
+          "start": {
+            "taper": ,
+            "cap": true,
+            "easing": "linear"
+          },
+          "end": {
+            "taper": ,
+            "cap": true,
+            "easing": "linear"
+          }
+        }
+      }
+    },
+    {
+      "type": "thick-thin",
+      "freedrawOnly": true,
+      "strokeColor": "CECDCC",
+      "backgroundColor": "transparent",
+      "fillStyle": "hachure",
+      "strokeWidth": ,
+      "roughness": null,
+      "penOptions": {
+        "highlighter": true,
+        "constantPressure": true,
+        "hasOutline": false,
+        "outlineWidth": ,
+        "options": {
+          "thinning": ,
+          "smoothing": .,
+          "streamline": .,
+          "easing": "linear",
+          "start": {
+            "taper": ,
+            "cap": true,
+            "easing": "linear"
+          },
+          "end": {
+            "cap": true,
+            "taper": true,
+            "easing": "linear"
+          }
+        }
+      }
+    },
+    {
+      "type": "thin-thick-thin",
+      "freedrawOnly": true,
+      "strokeColor": "CECDCC",
+      "backgroundColor": "transparent",
+      "fillStyle": "hachure",
+      "strokeWidth": ,
+      "roughness": null,
+      "penOptions": {
+        "highlighter": true,
+        "constantPressure": true,
+        "hasOutline": false,
+        "outlineWidth": ,
+        "options": {
+          "thinning": ,
+          "smoothing": .,
+          "streamline": .,
+          "easing": "linear",
+          "start": {
+            "cap": true,
+            "taper": true,
+            "easing": "linear"
+          },
+          "end": {
+            "cap": true,
+            "taper": true,
+            "easing": "linear"
+          }
+        }
+      }
+    },
+    {
+      "type": "default",
+      "freedrawOnly": false,
+      "strokeColor": "",
+      "backgroundColor": "transparent",
+      "fillStyle": "hachure",
+      "strokeWidth": ,
+      "roughness": ,
+      "penOptions": {
+        "highlighter": false,
+        "constantPressure": false,
+        "hasOutline": false,
+        "outlineWidth": ,
+        "options": {
+          "thinning": .,
+          "smoothing": .,
+          "streamline": .,
+          "easing": "easeOutSine",
+          "start": {
+            "cap": true,
+            "taper": ,
+            "easing": "linear"
+          },
+          "end": {
+            "cap": true,
+            "taper": ,
+            "easing": "linear"
+          }
+        }
+      }
+    },
+    {
+      "type": "default",
+      "freedrawOnly": false,
+      "strokeColor": "",
+      "backgroundColor": "transparent",
+      "fillStyle": "hachure",
+      "strokeWidth": ,
+      "roughness": ,
+      "penOptions": {
+        "highlighter": false,
+        "constantPressure": false,
+        "hasOutline": false,
+        "outlineWidth": ,
+        "options": {
+          "thinning": .,
+          "smoothing": .,
+          "streamline": .,
+          "easing": "easeOutSine",
+          "start": {
+            "cap": true,
+            "taper": ,
+            "easing": "linear"
+          },
+          "end": {
+            "cap": true,
+            "taper": ,
+            "easing": "linear"
+          }
+        }
+      }
+    },
+    {
+      "type": "default",
+      "freedrawOnly": false,
+      "strokeColor": "",
+      "backgroundColor": "transparent",
+      "fillStyle": "hachure",
+      "strokeWidth": ,
+      "roughness": ,
+      "penOptions": {
+        "highlighter": false,
+        "constantPressure": false,
+        "hasOutline": false,
+        "outlineWidth": ,
+        "options": {
+          "thinning": .,
+          "smoothing": .,
+          "streamline": .,
+          "easing": "easeOutSine",
+          "start": {
+            "cap": true,
+            "taper": ,
+            "easing": "linear"
+          },
+          "end": {
+            "cap": true,
+            "taper": ,
+            "easing": "linear"
+          }
+        }
+      }
+    }
+  ],
+  "numberOfCustomPens": 
+}

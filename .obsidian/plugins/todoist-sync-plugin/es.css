@@ -1,0 +1,132 @@
+.todoist-query-title {
+  display: inline;
+  font-size: .em;
+}
+
+.todoist-refresh-button {
+  display: inline;
+  margin-left: px;
+  margin-right: px;
+  float: right;
+}
+
+.todoist-refresh-spin {
+  animation: spin s linear infinite;
+}
+
+@-webkit-keyframes spin {
+  % {
+    -webkit-transform: rotate(deg);
+  }
+}
+
+.task-metadata {
+  margin-left: px;
+}
+
+.task-calendar-icon,
+.task-project-icon,
+.task-labels-icon {
+  vertical-align: middle;
+  height: px;
+  width: px;
+}
+
+.task-date.task-overdue {
+  color: var(--text-error);
+}
+
+.todoist-project {
+  white-space: normal;
+}
+
+.todoist-project .todoist-project {
+  margin-left: px;
+}
+
+.todoist-project .todoist-section {
+  margin-left: px;
+}
+
+.todoist-error {
+  background-color: rgb(var(--background-modifier-error-rgb), .);
+  border: px solid var(--background-modifier-error);
+  padding:  px px px;
+  margin-top: px;
+}
+
+.todoist-success {
+  border: px solid var(--background-modifier-border);
+  padding:  px px px;
+  margin-top: px;
+}
+
+.todoist-task-content {
+  display: inline;
+}
+
+ul.todoist-task-list {
+  white-space: normal;
+}
+
+.markdown-reading-view .hide-in-reading-view {
+  display: none;
+}
+
+.is-live-preview .block-language-todoist {
+  padding-left: px;
+}
+
+.theme-dark {
+    --todoist-p-border: ff;
+    --todoist-p-border-hover: ff;
+    --todoist-p-background: rgba(,,, .);
+
+    --todoist-p-border: ffa;
+    --todoist-p-border-hover: ffa;
+    --todoist-p-background: rgba(,,, .);
+
+    --todoist-p-border: ff;
+    --todoist-p-border-hover: ff;
+    --todoist-p-background: rgba(,,, .);
+}
+
+.theme-light {
+    --todoist-p-border: db;
+    --todoist-p-border-hover: db;
+    --todoist-p-background: rgba(,,, .);
+
+    --todoist-p-border: eb;
+    --todoist-p-border-hover: eb;
+    --todoist-p-background: rgba(,,, .);
+
+    --todoist-p-border: fe;
+    --todoist-p-border-hover: fe;
+    --todoist-p-background: rgba(,,, .);
+}
+
+.todoist-p input {
+    --checkbox-border-color: var(--todoist-p-border);
+    --checkbox-border-color-hover: var(--todoist-p-border-hover);
+    background-color: var(--todoist-p-background);
+
+}
+
+.todoist-p input {
+    --checkbox-border-color: var(--todoist-p-border);
+    --checkbox-border-color-hover: var(--todoist-p-border-hover);
+    background-color: var(--todoist-p-background);
+}
+
+.todoist-p input {
+    --checkbox-border-color: var(--todoist-p-border);
+    --checkbox-border-color-hover: var(--todoist-p-border-hover);
+    background-color: var(--todoist-p-background);
+}
+
+.todoist-task-description {
+  font-size: %;
+  color: var(--text-muted);
+  margin-left: px;
+}
+

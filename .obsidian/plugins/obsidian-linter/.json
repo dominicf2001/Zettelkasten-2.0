@@ -1,0 +1,18 @@
+{
+  "ruleConfigs": {},
+  "lintOnSave": false,
+  "recordLintOnSaveLogs": false,
+  "displayChanged": true,
+  "settingsConvertedToConfigKeyValues": true,
+  "foldersToIgnore": [],
+  "linterLocale": "system-default",
+  "logLevel": ,
+  "lintCommands": [],
+  "customRegexes": [],
+  "commonStyles": {
+    "aliasArrayStyle": "single-line",
+    "tagArrayStyle": "single-line",
+    "minimumNumberOfDollarSignsToBeAMathBlock": ,
+    "escapeCharacter": "\""
+  }
+}

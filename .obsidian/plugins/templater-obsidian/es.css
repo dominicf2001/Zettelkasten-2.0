@@ -1,0 +1,281 @@
+.templater_search {
+    width: calc(% - px);
+}
+
+.templater_div {
+    border-top: px solid var(--background-modifier-border);
+}
+
+.templater_div > .setting-item {
+    border-top: none !important;
+    align-self: center;
+}
+
+.templater_div > .setting-item > .setting-item-control {
+    justify-content: space-around;
+    padding: ;
+    width: %;
+}
+
+.templater_div
+    > .setting-item
+    > .setting-item-control
+    > .setting-editor-extra-setting-button {
+    align-self: center;
+}
+
+.templater_donating {
+    margin: px;
+}
+
+.templater_title {
+    margin: ;
+    padding: ;
+    margin-top: px;
+    text-align: center;
+}
+
+.templater_template {
+    align-self: center;
+    margin-left: px;
+    margin-right: px;
+    width: %;
+}
+
+.templater_cmd {
+    margin-left: px;
+    margin-right: px;
+    font-size: px;
+    width: %;
+}
+
+.templater_div > .setting-item {
+    align-content: center;
+    justify-content: center;
+}
+
+.templater-prompt-div {
+    display: flex;
+}
+
+.templater-prompt-form {
+    display: flex;
+    flex-grow: ;
+}
+
+.templater-prompt-input {
+    flex-grow: ;
+}
+
+.templater-button-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: rem;
+}
+
+textarea.templater-prompt-input {
+    height: rem;
+}
+
+textarea.templater-prompt-input:focus {
+    border-color: var(--interactive-accent);
+}
+
+.cm-s-obsidian .templater-command-bg {
+    left: px;
+    right: px;
+    background-color: var(--background-primary-alt);
+}
+
+.cm-s-obsidian .cm-templater-command {
+    font-size: .em;
+    font-family: var(--font-monospace);
+    line-height: .;
+}
+
+.cm-s-obsidian .templater-inline .cm-templater-command {
+    background-color: var(--background-primary-alt);
+}
+
+.cm-s-obsidian .cm-templater-command.cm-templater-opening-tag {
+    font-weight: bold;
+}
+
+.cm-s-obsidian .cm-templater-command.cm-templater-closing-tag {
+    font-weight: bold;
+}
+
+.cm-s-obsidian .cm-templater-command.cm-templater-interpolation-tag {
+    color: bff;
+}
+
+.cm-s-obsidian .cm-templater-command.cm-templater-execution-tag {
+    color: cd;
+}
+
+.theme-dark .cm-s-obsidian .cm-templater-command.cm-keyword {
+    color: aaa;
+    font-weight: normal;
+}
+
+.theme-dark .cm-s-obsidian .cm-templater-command.cm-atom {
+    color: fb;
+}
+
+.theme-dark .cm-s-obsidian .cm-templater-command.cm-number {
+    color: afca;
+}
+
+.theme-dark .cm-s-obsidian .cm-templater-command.cm-type {
+    color: afca;
+}
+
+.theme-dark .cm-s-obsidian .cm-templater-command.cm-def {
+    color: e;
+}
+
+.theme-dark .cm-s-obsidian .cm-templater-command.cm-property {
+    color: ddd;
+}
+
+.theme-dark .cm-s-obsidian .cm-templater-command.cm-variable {
+    color: ddd;
+}
+
+.theme-dark .cm-s-obsidian .cm-templater-command.cm-variable- {
+    color: dadae;
+}
+
+.theme-dark .cm-s-obsidian .cm-templater-command.cm-variable- {
+    color: afca;
+}
+
+.theme-dark .cm-s-obsidian .cm-templater-command.cm-type.cm-def {
+    color: fc;
+}
+
+.theme-dark .cm-s-obsidian .cm-templater-command.cm-property.cm-def {
+    color: fc;
+}
+
+.theme-dark .cm-s-obsidian .cm-templater-command.cm-callee {
+    color: fc;
+}
+
+.theme-dark .cm-s-obsidian .cm-templater-command.cm-operator {
+    color: fc;
+}
+
+.theme-dark .cm-s-obsidian .cm-templater-command.cm-qualifier {
+    color: fc;
+}
+
+.theme-dark .cm-s-obsidian .cm-templater-command.cm-tag {
+    color: fc;
+}
+
+.theme-dark .cm-s-obsidian .cm-templater-command.cm-tag.cm-bracket {
+    color: ddd;
+}
+
+.theme-dark .cm-s-obsidian .cm-templater-command.cm-attribute {
+    color: afca;
+}
+
+.theme-dark .cm-s-obsidian .cm-templater-command.cm-comment {
+    color: d;
+}
+
+.theme-dark .cm-s-obsidian .cm-templater-command.cm-comment.cm-tag {
+    color: fc;
+}
+
+.theme-dark .cm-s-obsidian .cm-templater-command.cm-comment.cm-attribute {
+    color: ddd;
+}
+
+.theme-dark .cm-s-obsidian .cm-templater-command.cm-string {
+    color: edb;
+}
+
+.theme-dark .cm-s-obsidian .cm-templater-command.cm-string- {
+    color: fb;
+}
+
+.theme-dark .cm-s-obsidian .cm-templater-command.cm-meta {
+    color: ddd;
+    background: inherit;
+}
+
+.theme-dark .cm-s-obsidian .cm-templater-command.cm-builtin {
+    color: fc;
+}
+
+.theme-dark .cm-s-obsidian .cm-templater-command.cm-header {
+    color: dadae;
+}
+
+.theme-dark .cm-s-obsidian .cm-templater-command.cm-hr {
+    color: e;
+}
+
+.theme-dark .cm-s-obsidian .cm-templater-command.cm-link {
+    color: d;
+}
+
+.theme-dark .cm-s-obsidian .cm-templater-command.cm-error {
+    border-bottom: px solid c;
+}
+
+.theme-dark .cm-s-obsidian pre.HyperMD-codeblock .cm-keyword {
+    font-weight: normal;
+}
+
+.theme-dark
+    .cm-s-obsidian
+    .cm-templater-command.CodeMirror-activeline-background {
+    background: ;
+}
+
+.theme-dark .cm-s-obsidian .cm-templater-command.CodeMirror-matchingbracket {
+    outline: px solid grey;
+    color: ddd !important;
+}
+
+.CodeMirror-hints {
+    position: absolute;
+    z-index: ;
+    overflow: hidden;
+    list-style: none;
+
+    margin: ;
+    padding: px;
+
+    -webkit-box-shadow: px px px rgba(, , , .);
+    -moz-box-shadow: px px px rgba(, , , .);
+    box-shadow: px px px rgba(, , , .);
+    border-radius: px;
+    border: px solid silver;
+
+    background: white;
+    font-size: %;
+    font-family: monospace;
+
+    max-height: em;
+    overflow-y: auto;
+}
+
+.CodeMirror-hint {
+    margin: ;
+    padding:  px;
+    border-radius: px;
+    white-space: pre;
+    color: black;
+    cursor: pointer;
+}
+
+li.CodeMirror-hint-active {
+    background: f;
+    color: white;
+}

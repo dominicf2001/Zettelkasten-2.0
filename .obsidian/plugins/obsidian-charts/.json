@@ -1,0 +1,16 @@
+{
+  "colors": [
+    "rgba(, , , )",
+    "rgba(, , , )",
+    "rgba(, , , )",
+    "rgba(, , , )",
+    "rgba(, , , )",
+    "rgba(, , , )"
+  ],
+  "contextMenu": true,
+  "imageSettings": {
+    "format": "image/png",
+    "quality": .
+  },
+  "themeable": false
+}

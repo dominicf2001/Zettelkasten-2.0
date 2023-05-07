@@ -1,0 +1,18 @@
+{
+  "legacyEditor": false,
+  "livePreview": true,
+  "spellcheck": true,
+  "defaultViewMode": "source",
+  "attachmentFolderPath": "🏛️ Library/📸 Images",
+  "fileSortOrder": "byModifiedTime",
+  "alwaysUpdateLinks": true,
+  "readableLineLength": true,
+  "newFileLocation": "current",
+  "userIgnoreFilters": [
+    "📋 Management/",
+    "🏛️ Library/",
+    "✅ Goals/"
+  ],
+  "showInlineTitle": false,
+  "vimMode": true
+}

@@ -1,0 +1,14 @@
+Time:  Minutes
+-[[Triad Exercises - Jens Larsen]]
+- Scales/modes
+- Intervals
+	- [[Intervals or Notes - MusicTheoryForGuitar]]
+- Scale degrees
+- [Roots all over neck](https://www.youtube.com/watch?v=PJddQQUDo)
+- CAGED
+	- Guitar Zen Course
+- Memorizing notes
+- Learning new chords
+- Chord tones
+	- [MTFG chord tone course](https://www.musictheoryforguitar.com/myaccount)
+- 

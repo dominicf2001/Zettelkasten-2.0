@@ -1,0 +1,153 @@
+/
+  Based on https://github.com/Fevol/obsidian-translate/blob/master/src/ui/translator-components/SettingsPage.svelte 
+ /
+
+.linter-navigation-item {
+  cursor: pointer;
+  border-radius: px;
+  border: px solid var(--background-modifier-border);
+  border-radius: px px px px;
+
+  font-weight: bold;
+  font-size: px;
+
+  display: flex;
+  flex-direction: row;
+  white-space: nowrap;
+
+  padding: px px;
+  align-items: center;
+  gap: px;
+  overflow: hidden;
+
+  background-color: var(--background-primary-secondary-alt);
+  
+  transition: color .s ease-in-out,
+        padding .s ease-in-out,
+        background-color .s cubic-bezier(., ., ., .),
+        max-width .s cubic-bezier(., ., ., );
+  height: px;
+}
+
+@media screen and (max-width: px) {
+  .linter-navigation-item.linter-desktop {
+		max-width: px;
+  }
+}
+
+@media screen and (max-width: px) {
+  .linter-navigation-item.linter-mobile {
+		max-width: px;
+  }
+}
+
+.linter-navigation-item-icon {
+  padding-top: px;
+}
+
+.linter-navigation-item:hover {
+  border-color: var(--interactive-accent-hover);
+  border-bottom: px;
+}
+
+.linter-navigation-item-selected {
+  background-color: var(--interactive-accent) !important;
+  color: var(--text-on-accent);
+  padding: px px !important;
+  max-width: % !important;
+  border: px solid var(--background-modifier-border);
+  border-radius: px px px px;
+  border-bottom: px;
+  transition: color .s ease-in-out,
+        padding .s ease-in-out,
+        background-color .s cubic-bezier(., ., ., .),
+        max-width .s cubic-bezier(., ., ., ) .s;
+}
+
+/
+  Based on https://github.com/phibr/obsidian-commander/blob/main/src/styles.scss
+ /
+.linter {
+  transition: transform ms s;
+}
+
+.linter-setting-title {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: px;
+}
+.linter-setting-title.linter-mobile {
+  justify-content: space-around;
+}
+.linter-setting-title h {
+  font-weight: ;
+  margin-top: px;
+  margin-bottom: px;
+}
+
+.linter-setting-header {
+  margin-bottom: px;
+  overflow-y: hidden;
+  overflow-x: auto;
+}
+
+.linter-setting-header .linter-setting-tab-group {
+  display: flex;
+  align-items: flex-end;
+  flex-wrap: wrap;
+  width: %;
+}
+.linter-setting-tab-group {
+  margin-top: px;
+  padding-left: px;
+  padding-right: px;
+  border-bottom: px solid var(--background-modifier-border);
+}
+
+.linter-setting-header .linter-tab-settings {
+  padding: px px;
+  font-weight: ;
+  cursor: pointer;
+  white-space: nowrap;
+  border-left: px solid transparent;
+  border-right: px solid transparent;
+}
+.linter-setting-header .linter-tab-settings:first-child {
+  margin-left: px;
+}
+.linter-setting-header .linter-tab-settings.linter-tab-settings-active {
+  border-bottom: px solid var(--background-primary);
+  transform: translateY(px);
+  border-radius: px;
+  border-left: px solid var(--background-modifier-border);
+  border-top: px solid var(--background-modifier-border);
+  border-right: px solid var(--background-modifier-border);
+}
+
+/ Hide linter element css 
+  Based on https://zellwk.com/blog/hide-content-accessibly/
+ /
+.linter-navigation-item:not(.linter-navigation-item-selected) > span:nth-child(),
+.linter-visually-hidden {
+  border: ;
+  clip: rect(   );
+  clip-path: rect(   );
+  height: auto;
+  margin: ;
+  overflow: hidden;
+  padding: ;
+  position: absolute;
+  width: px;
+  white-space: nowrap;
+}
+
+/
+ Full-width text areas
+/
+textarea.full-width {
+  width: %;
+  min-height: em;
+  margin-top: .em;
+  margin-bottom: .em;
+}

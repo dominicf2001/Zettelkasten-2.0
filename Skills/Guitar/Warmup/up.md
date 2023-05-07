@@ -1,0 +1,14 @@
+- Time: - minutes
+- Make it musical 
+	- Song or rhythm
+		- Perfecting a song already learned
+	- Conscious/attentive backing track improvisation
+		- Chord changes
+	- [[Shredded Guitar Routine - TomoFujitaMusic|tomo's routine]]
+	- [[Strumming Patterns]]
+		- Loosen grip on pick
+		- "Drunk hand"
+		- Keep track of tempo increase over time
+			- Increase by ?
+		- 
+	

@@ -1,0 +1,17 @@
+- EXERCISE : Play triad for each note in a scale all the way down
+- Inversions
+	- Root position
+	- st inversion: move root up an octave
+	- nd inversion: Additionally moving next note up an octave
+- EXERCISE : change order of triads and play them
+	- Can do this with exercise 
+- EXERCISE : Playing triads up and down the neck
+	- Can do with different inversions + different orders
+- EXERCISE : Play inversions of a SINGLE triad up and down the neck
+	- Can do it on different string sets
+- EXERCISE : connect triads up and down strings and neck across different positions
+- EXERCISE : Repeat the same triad shape up and down neck
+	- Starting from first root to next and so on
+ Reference
+- https://www.youtube.com/watch?v=ButaguQ
+- https://jenslarsen.nl/the-best-triad-exercises-how-to-get-the-essentials-right/

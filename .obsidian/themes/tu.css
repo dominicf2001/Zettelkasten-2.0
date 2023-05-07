@@ -1,0 +1,1985 @@
+body {
+  font-size: px;
+  font-family: "Roboto", sans-serif;
+  --font-monospace: "Fira Code", "Source Code Pro", monospace;
+}
+
+.CodeMirror pre.CodeMirror-line {
+  font-size: px;
+  / font-family: "Fira Code", "Source Code Pro", monospace; /
+}
+
+/ === DARK MODE === /
+
+.theme-dark {
+  --background-primary: ;
+  / --background-primary-alt: ; /
+  --background-primary-alt: ccc;
+  --background-secondary: ccc;
+  --background-secondary-alt: ccc;
+  --background-modifier-border: ;
+  --background-modifier-box-shadow: rgba(, , , .);
+  --background-modifier-form-field: var(--background-primary);
+  --text-accent: dfa;
+  --text-accent-hover: dfa;
+  --text-normal: dcddde;
+  --text-muted: ;
+  --text-faint: ;
+  --text-error: ff;
+  --text-error-hover: ;
+  --text-matched: dcddde;
+  --text-on-accent: dcddde;
+  --text-selection: rgba(, , , .);
+  --text-highlight-bg: dfa;
+  / --interactive-normal: aaa; /
+  --interactive-normal: var(--background-primary);
+  --interactive-hover: ;
+  --interactive-accent: dfa;
+  --interactive-accent-rgb: dfa;
+  --interactive-accent-hover: dfa;
+  --workspace-leaf-resize: ;
+  --scrollbar-active-thumb-bg: rgba(, , , .);
+  --scrollbar-bg: rgba(, , , );
+  --scrollbar-thumb-bg: rgba(, , , .);
+  --accent-strong: ecdd;
+  --accent-mild: ebf;
+  --bw: ffffff;
+  --lines-identation: ;
+  --tooltip-bg: rgba(, , , .);
+}
+
+/ === LIGHT MODE === /
+
+.theme-light {
+  --background-primary: fff;
+  --background-primary-alt: dedede;
+  --background-secondary: dedede;
+  --background-secondary-alt: dedede;
+  --background-modifier-border: fff;
+  --background-modifier-box-shadow: rgba(, , , .);
+  --text-accent: dfa;
+  --text-accent-hover: dfa;
+  --text-normal: b;
+  --text-muted: ;
+  --text-error: ff;
+  --text-error-hover: ;
+  --text-matched: dcddde;
+  --text-on-accent: dcddde;
+  --text-selection: rgba(, , , .);
+  --text-highlight-bg: dfa;
+  --interactive-accent: dfa;
+  --interactive-accent-rgb: dfa;
+  --interactive-accent-hover: dfa;
+  --workspace-leaf-resize: ccc;
+  --accent-strong: ecdd;
+  --accent-mild: ebf;
+  --bw: b;
+  --lines-identation: dadd;
+  --tooltip-bg: rgba(, , , .);
+}
+
+/=== Titlebar for v..+ ===/
+.titlebar {
+  background-color: var(--background-secondary);
+  border-bottom: px solid var(--background-primary);
+}
+.titlebar-inner {
+  color: var(--text-normal);
+}
+.titlebar-text {
+  color: var(--text-normal);
+}
+
+/for future editing maximize btn/
+.titlebar-button.mod-maximize[aria-label="Maximize"] {
+}
+.titlebar-button.mod-maximize[aria-label="Restore down"] {
+}
+
+.titlebar-button.mod-close:hover {
+  background-color: transparent;
+  color: var(--text-accent);
+}
+
+
+/ change heading size in edit mode /
+/ for better looking after enable Clutter free edit mode /
+.cm-header- {
+  font-size: px;
+  color: var(--text-accent);
+}
+.cm-header- {
+  font-size: px;
+}
+.cm-header- {
+  font-size: px;
+}
+.cm-header- {
+  font-size: px;
+}
+.cm-header- {
+  font-size: px;
+}
+.cm-header- {
+  font-size: px;
+  color: var(--text-muted);
+}
+
+/ === Clutter free edit mode === /
+/ inline formatting, link targets and [[ ]] disappears if not active line/
+div:not(.CodeMirror-activeline) > .CodeMirror-line span.cm-formatting {
+  display: none;
+}
+/ except list markers, links, images, urls and code blocks /
+span.cm-image,
+span.cm-link,
+span.cm-url,
+span.cm-formatting-list,
+span.cm-formatting-code-block.cm-hmd-codeblock {
+  / header hashes -  span.cm-formatting-header /
+  display: inline !important;
+}
+
+/ hide all html tags -- IT IS COMMENTED OUT BY DEFAULT /
+/ div:not(.CodeMirror-activeline) > .CodeMirror-line span.cm-tag{ display: none; } /
+
+/ and task checkboxes /
+span.cm-formatting-task {
+  display: inline !important;
+  font-family: monospace;
+}
+
+/ remove borders in iframe /
+iframe {
+  border-width: ;
+}
+
+/ Enlarge image on hover /
+.markdown-preview-view img {
+  display: block;
+  margin-top: pt;
+  margin-bottom: pt;
+  margin-left: auto;
+  margin-right: auto;
+  width: %; /experiment with values/
+  transition: transform .s ease;
+}
+
+.markdown-preview-view img:hover {
+  -webkit-transform: scale(); / experiment with values /
+  transform: scale();
+}
+
+/ fix background of folder-collapse-indicator /
+body:not(.is-grabbing) .nav-folder-title:hover .nav-folder-collapse-indicator {
+  background: none;
+}
+
+/ change highlight h in text from outline panel or search /
+/ because color the same /
+
+.markdown-preview-view .mod-highlighted h {
+  color: white;
+}
+
+/ === Tooltip === /
+.tooltip {
+  background-color: var(--tooltip-bg);
+  color: fff;
+  font-weight: bold;
+}
+.tooltip .tooltip-arrow {
+  border-bottom: px solid var(--tooltip-bg);
+}
+
+/ Make selected items in settings more visible /
+.horizontal-tab-nav-item.is-active,
+.vertical-tab-nav-item.is-active {
+  background-color: var(--background-primary);
+}
+.horizontal-tab-nav-item:hover,
+.vertical-tab-nav-item:hover {
+  background-color: var(--background-primary);
+  transition: all .s ease;
+}
+
+/ Add border in settings page /
+.modal.mod-settings .vertical-tab-header {
+  border-right: px solid var(--background-primary);
+}
+
+/ fix local graph input range background /
+input[type="range"] {
+  background-color: var(--background-secondary);
+}
+
+/ add border radius in popup for suggestion  in tags etc /
+.suggestion {
+  border-radius: px;
+}
+
+/ change color of workspace when drag /
+.workspace-drop-overlay.mod-drag {
+  background-color: var(--text-accent);
+}
+
+/ markdown edit mode width /
+.markdown-source-view.is-readable-line-width .CodeMirror {
+  max-width: px;
+}
+
+/ === Custom Checkbox === /
+input[type="checkbox"] {
+  -webkit-appearance: none;
+  appearance: none;
+  border-radius: %;
+  border: px solid var(--text-faint);
+  padding: ;
+}
+input[type="checkbox"]:focus {
+  outline: ;
+}
+input[type="checkbox"]:checked {
+  background-color: var(--text-accent);
+  border: px solid var(--text-accent);
+  background-position: center;
+  background-size: %;
+  background-repeat: no-repeat;
+  background-image: url('data:image/svg+xml; utf, <svg width="px" height="px" viewBox="   " version="." xmlns="http://www.w.org//svg" xmlns:xlink="http://www.w.org//xlink"><g stroke="none" stroke-width="" fill="none" fill-rule="evenodd"><g transform="translate(-., -.)" fill="%ffffff"><path d="M.,. L.,. C.,. .,. .,. L.,. C.,. .,. .,. L.,. L.,. C.,. .,. .,. L.,. C.,. .,. .,. L.,. C.,. .,. .,."></path></g></g></svg>');
+}
+
+.markdown-preview-view .task-list-item-checkbox {
+  margin-left: -px;
+  top: px;
+  cursor: pointer;
+  filter: none; /remove default filter/
+}
+.markdown-preview-view .task-list-item {
+  padding-inline-start: px;
+}
+
+/ code block: dark background /
+.theme-dark code[class="language-"],
+.theme-dark pre[class="language-"],
+.theme-light code[class="language-"],
+.theme-light pre[class="language-"] {
+  background: var(--background-secondary);
+}
+
+.markdown-preview-view code,
+.markdown-preview-view pre {
+  background: var(--background-secondary);
+  color: bbe;
+}
+
+/ change color of selection text in code block, pre and links /
+.theme-light .markdown-preview-view code::selection,
+.theme-light .markdown-preview-view code > ::selection,
+.theme-light .markdown-preview-view pre::selection,
+.theme-light .markdown-preview-view pre > ::selection,
+.theme-dark .markdown-preview-view code::selection,
+.theme-dark .markdown-preview-view code > ::selection,
+.theme-dark .markdown-preview-view pre::selection,
+.theme-dark .markdown-preview-view pre > ::selection,
+::selection {
+  color: fff;
+  background-color: var(--text-selection);
+}
+
+/ change text selection background in edit mode, no way to change text color /
+.CodeMirror-focused .CodeMirror-selected,
+.CodeMirror-selected {
+  background-color: var(--text-selection);
+}
+
+/ FIXME : dropdown colors in settings page /
+
+/ code block:remove white bg on operators /
+.theme-light .token.operator {
+  background: hsla(, %, %, );
+}
+
+/ === VIM Mode === /
+.cm-fat-cursor .CodeMirror-cursor {
+  background: var(--text-accent);
+}
+.cm-animate-fat-cursor {
+  background: var(--text-accent);
+}
+
+/ active line selection/
+.CodeMirror-activeline .CodeMirror-linebackground {
+  background-color: rgba(, , , .) !important;
+}
+/ .theme-dark .CodeMirror-activeline .CodeMirror-linebackground {
+  background-color: rgba(, , , .) !important;
+} /
+
+/ === Tag Pills === /
+
+.tag {
+  background-color: var(--text-accent);
+  border: none;
+  color: white !important;
+  font-size: px;
+  font-weight: bold;
+  line-height: .em;
+  padding: px px px px;
+  text-align: center;
+  text-decoration: none !important;
+  display: inline-block;
+  margin: px px;
+  cursor: pointer;
+  border-radius: px;
+}
+
+.tag[href^="important"] {
+  background-color: red;
+}
+
+.tag[href^="complete"] {
+  background-color: green;
+}
+
+.tag[href^="inprogress"] {
+  background-color: orange;
+}
+
+.tag:hover {
+  color: white;
+  background-color: var(--text-accent-hover);
+}
+
+/ Tag pills in tag panel/
+/ Thanks Klaas for idea and some realization /
+
+.tag-pane-tag-text {
+  background-color: var(--background-primary);
+  color: var(--text-normal);
+  border: none;
+  font-size: px;
+  padding: px px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  border-radius: px;
+  transition: all .s ease;
+}
+
+.tag-pane-tag-count {
+  background-color: var(--background-primary);
+  color: var(--text-normal);
+  border: none;
+  font-size: px;
+  padding: px px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: px px;
+  cursor: pointer;
+  border-radius: px;
+  transition: all .s ease;
+}
+
+.tag-pane-tag:hover > .tag-pane-tag-count,
+.tag-pane-tag:hover > .tag-pane-tag-text {
+  background-color: var(--text-accent);
+  color: white;
+  font-weight: bold;
+}
+
+/=== trace indentation lines === /
+
+.cm-hmd-list-indent .cm-tab,
+ul ul {
+  position: relative;
+}
+
+.cm-hmd-list-indent .cm-tab::before,
+ul ul::before {
+  content: "";
+  border-left: px solid var(--lines-identation);
+
+  position: absolute;
+}
+
+.cm-hmd-list-indent .cm-tab::before {
+  left: ;
+  top: -px;
+  bottom: -px;
+}
+
+ul ul::before {
+  left: -px;
+  top: ;
+  bottom: ;
+}
+
+/ === Settings Page: change buttons color === /
+.modal.mod-settings button:not(.mod-cta) {
+  background-color: var(--text-accent);
+  color: fff;
+  font-weight: bold;
+}
+.modal.mod-settings button:not(.mod-cta):hover {
+  background-color: var(--text-accent-hover);
+}
+
+/ === Community Themes page: make responsive === /
+.community-theme-list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.community-theme {
+  max-width: px;
+}
+
+/ ===TRANSCLUSION TWEAKS=== /
+
+.markdown-embed-title {
+  font-family: sans-serif;
+  font-size: px;
+  color: var(--text-accent);
+  line-height: px;
+  width: %;
+  text-align: left;
+  font-weight: ;
+  margin: -px px;
+}
+
+.markdown-preview-view .markdown-embed {
+  background-color: var(--background-primary);
+  border-radius: px;
+  border: ;
+  border-left: px solid var(--text-selection);
+  margin: px -px;
+}
+
+.markdown-embed {
+  display: block;
+  top: px;
+}
+
+.markdown-embed > .markdown-embed-content {
+  display: inline;
+  max-height: %;
+  max-width: %;
+  margin: -px px -px px;
+  padding: px px px px;
+}
+
+.markdown-embed-content >  {
+  display: block;
+  max-height: %;
+  max-width: %;
+  margin: px px px px;
+}
+
+.markdown-embed-link {
+  top: -px;
+  left: -px;
+  color: var(--accent-strong);
+  cursor: pointer;
+  position: absolute;
+}
+
+svg.link {
+  width: px;
+  height: px;
+}
+
+.file-embed-link {
+  top: px;
+  left: -px;
+  color: var(--accent-strong);
+  cursor: pointer;
+  position: relative;
+}
+
+.internal-embed,
+.internal-embed > .markdown-embed > .markdown-embed-content {
+  display: block;
+  max-height: %;
+  max-width: %;
+  left: px;
+}
+
+.markdown-preview-view .file-embed {
+  background-color: var(--background-primary);
+  border-radius: px;
+  border: px solid var(--text-selection);
+  padding: px px px px;
+  margin: px px px px;
+}
+
+.file-embed-title {
+  font-size: px;
+  height: px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+/ ==========headings=======/
+h {
+  font-size: px;
+  line-height: px;
+  padding-bottom: px;
+  border-bottom: px solid var(--text-accent);
+  color: var(--text-accent);
+}
+h {
+  font-size: px;
+  line-height: px;
+  padding-top: px;
+  padding-bottom: px;
+  border-bottom: px solid var(--text-normal);
+}
+h {
+  padding-bottom: px;
+  border-bottom: px solid var(--text-muted);
+}
+h {
+  padding-bottom: px;
+  border-bottom: px dashed var(--text-muted);
+}
+h {
+  padding-bottom: px;
+  border-bottom: px dotted var(--text-muted);
+}
+
+/ h::before {
+    content: 'h ';
+    font-size: px;
+    color: var(--text-faint);
+}
+h::before {
+    content: 'h ';
+    font-size: px;
+    color: var(--text-faint);
+}
+h::before {
+    content: 'h ';
+    font-size: px;
+    color: var(--text-faint);
+}
+h::before {
+    content: 'h ';
+    font-size: px;
+    color: var(--text-faint);
+}
+h::before {
+    content: 'H ';
+    font-size: px;
+    color: var(--text-faint);
+}
+h::before {
+    content: 'H ';
+    font-size: px;
+    color: var(--text-faint);
+} /
+
+/ ==========hr======/
+.markdown-preview-view hr {
+  height: px;
+  border: none;
+  background-color: var(--text-accent);
+}
+
+/ ===========================/
+/ ====== GUI tweaks =========/
+/ ===========================/
+
+.workspace-tab-header:hover {
+  color: var(--text-accent);
+  cursor: pointer;
+}
+/ ===== snappier animations ==== /
+
+.workspace-tab-header,
+.workspace-tab-header-inner,
+.workspace-tab-container-before,
+.workspace-tab-container-after {
+  transition: background-color ms linear;
+}
+
+/ =====  ribbon vertical =========/
+
+.workspace-ribbon-collapse-btn {
+  margin-top: px;
+  padding: px px px px;
+  cursor: pointer;
+  color: var(--text-faint);
+  transform: none;
+  transition: transform ms ease-in-out;
+}
+
+.workspace-ribbon.is-collapsed {
+  background-color: var(--background-secondary-alt);
+}
+
+.workspace-ribbon.mod-left {
+  border-right: px solid var(--background-primary);
+}
+
+.workspace-ribbon.mod-left.is-collapsed {
+  border-right-color: transparent;
+}
+
+.workspace-ribbon.mod-right.is-collapsed {
+  border-left-color: var(--background-secondary-alt);
+}
+
+/ ===== thinner & snappier horiz resize handle =========/
+
+.workspace-split.mod-horizontal >  > .workspace-leaf-resize-handle {
+  bottom: ;
+  left: ;
+  height: px;
+  width: %;
+  cursor: row-resize;
+}
+
+.workspace-leaf-resize-handle {
+  transition: background-color ms linear;
+}
+
+/ ==== align top tab header with header title ==== /
+
+.workspace-tab-header-container {
+  display: flex;
+  background-color: var(--background-secondary-alt);
+  height: px;
+  padding-top: px;
+  border-bottom: px solid var(--background-primary);
+}
+
+/ =====  left sidebar =========/
+
+.workspace-tab-header-container {
+  display: flex;
+  background-color: var(--background-secondary-alt);
+  height: px; / aligh tab header /
+  padding-top: px;
+}
+
+.nav-header {
+  padding: px px px px;
+}
+
+.nav-buttons-container {
+  display: flex;
+  justify-content: left;
+  padding-bottom: px;
+  border-bottom: px solid var(--background-modifier-border);
+  margin-bottom: px;
+}
+
+.nav-action-button > svg {
+  width: px;
+  height: px;
+}
+
+.nav-action-button {
+  color: var(--text-muted);
+  padding:  px  px;
+  cursor: pointer;
+}
+
+.nav-files-container {
+  flex-grow: ;
+  overflow-y: auto;
+  padding-left: px; / reduce to  for more space /
+  padding-bottom: px;
+  margin-bottom: px;
+}
+
+/ == File Explorer === /
+.nav-file-title,
+.nav-folder-title {
+  padding: px px px px;
+}
+
+.nav-folder-title {
+  font-weight: bold;
+}
+
+.nav-folder.mod-root > .nav-folder-title {
+  padding-left: px;
+  font-size: px;
+  font-weight: bolder;
+  top: -px;
+  cursor: default;
+}
+
+.nav-file.is-active > .nav-file-title,
+.nav-file.is-active > .nav-file-title:hover {
+  background-color: var(--background-primary);
+  border-radius: px;
+  font-weight: bold;
+  / color: var(--text-accent); /
+  border-left: px solid var(--text-accent);
+  transition: all .s ease;
+}
+.nav-file.is-active > .nav-file-title {
+  padding-left: px;
+  / margin-left: px; /
+}
+body:not(.is-grabbing) .nav-file-title:hover,
+body:not(.is-grabbing) .nav-folder-title:hover {
+  background-color: var(--background-primary);
+  border-radius: px;
+  transition: all .s ease;
+}
+
+.nav-file-tag {
+  background-color: var(--background-secondary-alt);
+  top: -px;
+}
+
+/-------search pane---------/
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"] {
+  padding: px px;
+  font-size: px;
+  border-radius: px;
+}
+.search-input {
+  display: block;
+  margin:  auto px auto;
+  width: calc(% - px);
+}
+
+/---- nav arrows adjust location ----/
+
+.nav-folder-collapse-indicator {
+  position: absolute;
+  left: px;
+  top: px;
+  width: px;
+  height: px;
+  transition: transform ms linear s;
+}
+
+.nav-folder.is-collapsed .nav-folder-collapse-indicator {
+  transform: translateX(-px) translateY(px) rotate(-deg);
+}
+
+/ ===== smaller view-actions icons ===== /
+
+.view-action > svg {
+  width: px;
+  height: px;
+}
+
+.view-header-icon > svg {
+  width: px;
+  height: px;
+}
+
+.workspace-tab-header-inner-icon > svg {
+  width: px;
+  height: px;
+}
+
+/ ===== fix the selection highlight ==== /
+
+.suggestion-item.is-selected {
+  background-color: var(--text-accent);
+}
+.theme-light .suggestion-item.is-selected {
+  color: fff;
+}
+
+/ ====== scrollbars =======/
+
+::-webkit-scrollbar-thumb {
+  -webkit-border-radius: px;
+}
+
+::-webkit-scrollbar-thumb:active {
+  -webkit-border-radius: px;
+}
+
+/==== tabs =====/
+
+.workspace-tab-header-inner {
+  padding: px px;
+  height: %;
+  display: flex;
+}
+
+.workspace-tab-container-before,
+.workspace-tab-container-after {
+  width: px;
+  height: %;
+}
+
+/ ====== font size headers =========/
+
+.view-header-title {
+  font-size: px;
+  font-weight: ;
+}
+
+/ ===== view header color ==========/
+
+.workspace-leaf.mod-active .view-header-icon {
+  padding: px px;
+  color: var(--interactive-accent);
+  cursor: grab;
+  position: relative;
+  top: px;
+}
+
+.workspace-leaf.mod-active .view-header {
+  background-color: var(--background-primary);
+  border-bottom: px solid var(--interactive-accent);
+}
+
+.view-header {
+  height: px;
+  display: flex;
+  border-top: px solid var(--background-secondary-alt);
+  border-bottom: px solid var(--background-secondary-alt);
+  background-color: var(--background-secondary-alt);
+  z-index: ;
+}
+
+/ remove the gradient between title and icons /
+
+.workspace-leaf.mod-active .view-header-title-container:after {
+  background: var(--background-primary);
+}
+
+.view-header-title-container:after {
+  content: "";
+  position: absolute;
+  top: ;
+  right: ;
+  width: px;
+  height: px;
+  background: var(--background-secondary-alt);
+  /border-right: px solid var(--background-modifier-border);/
+}
+
+/==== separators =====/
+
+.workspace-leaf-resize-handle {
+  background-color: var(--background-secondary-alt);
+}
+
+.workspace-leaf-resize-handle:hover {
+  background-color: var(--workspace-leaf-resize);
+}
+
+/ a bit more padding on the left side /
+
+.markdown-preview-view {
+  padding: px px px px;
+}
+
+/ fix color text in white theme and add some padding in mark text for readable /
+.theme-light .markdown-preview-view mark {
+  color: fff;
+}
+.markdown-preview-view mark {
+  padding:  px;
+}
+
+/===== backlink pane smaller fonts=======/
+
+.side-dock-collapsible-section-header {
+  font-size: px;
+  padding: px px  px;
+  user-select: none;
+  cursor: pointer;
+  position: relative;
+}
+.side-dock-collapsible-section-header.is-collapsed
+  .side-dock-collapsible-section-header-indicator {
+  transform: translateX(-px) translateY(px) rotate(-deg);
+}
+.search-result-container {
+  padding: px px px px;
+}
+
+.search-result-file-title {
+  font-size: px;
+  color: var(--text-accent);
+  border-radius: px;
+  border-top: px solid var(--background-modifier-border);
+  padding: px px px px;
+}
+
+.search-result-file-matches {
+  color: var(--text-muted);
+  font-size: px;
+  line-height: px;
+  padding: px px;
+  margin-bottom: -px;
+  border-bottom: px;
+}
+.search-result-file-match {
+  color: var(--text-muted);
+  font-size: px;
+  line-height: px;
+  padding: px px;
+  margin-bottom: px;
+  border-bottom: px;
+}
+
+.search-result-file-match:not(:first-child) {
+  margin-top: px;
+}
+
+.search-result-file-matched-text {
+  color: var(--text-matched);
+  background-color: var(--text-highlight-bg);
+}
+
+.search-info-more-matches {
+  color: var(--text-faint);
+  text-decoration: overline;
+  font-size: px;
+  line-height: px;
+}
+
+.search-empty-state {
+  color: var(--text-error);
+  font-size: px;
+  margin:  px px px;
+}
+/ the small text ... and XX matches /
+
+/========= remove rounded corners =======/
+
+.workspace-tab-header.is-active {
+  border-radius: px;
+}
+
+.nav-folder-title {
+  border-radius: px;
+}
+
+.workspace-tab-container-before.is-before-active .workspace-tab-header-inner,
+.workspace-tab-header.is-before-active .workspace-tab-header-inner {
+  border-radius: px;
+}
+
+.workspace-tab-container-after.is-after-active .workspace-tab-header-inner,
+.workspace-tab-header.is-after-active .workspace-tab-header-inner {
+  border-bottom-left-radius: px;
+}
+
+.workspace-split.mod-left-split .workspace-tabs .workspace-leaf {
+  border-top-left-radius: px;
+}
+
+.workspace-split.mod-right-split .workspace-tabs .workspace-leaf {
+  border-top-right-radius: px;
+}
+
+/======= flat status bar ====/
+
+.status-bar {
+  background-color: var(--background-secondary-alt);
+  border-top: px solid var(--background-modifier-border);
+}
+
+/ ======= graph view ==============/
+
+.graph-view.color-fill {
+  color: var(--accent-strong);
+  /var(--text-muted)if you want neutral color/
+}
+
+.graph-view.color-circle {
+  color: var(--text-normal);
+}
+
+.graph-view.color-line {
+  color: var(--text-faint);
+}
+
+.graph-view.color-text {
+  color: var(--text-normal);
+}
+
+.graph-view.color-fill-highlight {
+  color: var(--interactive-accent);
+}
+
+.graph-view.color-line-highlight {
+  color: rgb(var(--interactive-accent-rgb));
+}
+
+/ code mirror change text color /
+.CodeMirror-lines {
+  color: var(--text-normal);
+}
+.CodeMirror-lines > ::selection {
+  color: white;
+}
+
+.theme-light .graph-view.color-fill-tag,
+.theme-dark .graph-view.color-fill-tag {
+  color: var(--text-accent);
+}
+
+.theme-light .graph-view.color-fill-attachment,
+.theme-dark .graph-view.color-fill-attachment {
+  color: var(--text-muted);
+}
+
+/==== codemirror line numbers gutter edit mode ====/
+
+.cm-s-obsidian .CodeMirror-linenumber {
+  color: var(--text-accent);
+  opacity: .;
+  font-size: px;
+  font-family: Consolas, monospace;
+}
+
+.CodeMirror-gutter-elt {
+  position: absolute;
+  cursor: default;
+  z-index: ;
+}
+
+.CodeMirror-linenumber {
+  padding:  px  px;
+  min-width: px;
+  text-align: right;
+  white-space: nowrap;
+}
+
+/ === show margins in editor mode === /
+.CodeMirror-lines {
+  border-right: px solid var(--background-secondary);
+  border-left: px solid var(--background-secondary);
+}
+
+/============bigger link popup preview  ================/
+
+.popover.hover-popover {
+  position: absolute;
+  z-index: var(--layer-popover);
+  transform: scale(.);
+  max-height: px; / was  /
+  min-height: px;
+  width: px;
+  overflow: hidden;
+  padding: ;
+  border-bottom: none;
+  transition: all .s ease;
+  opacity: .;
+}
+/ .popover.hover-popover.is-loaded {
+  transition: all s ease;
+  opacity: ;
+} /
+
+.popover {
+  background-color: var(--background-primary);
+  border: px solid var(--background-primary-alt);
+  box-shadow: px px px var(--background-modifier-box-shadow);
+  border-radius: px;
+  padding: px px px px;
+  position: relative;
+  font-weight: ;
+  -webkit-text-stroke: .px;
+  -webkit-font-smoothing: none;
+  color: var(--bw);
+}
+/ --- the bottom gradient ---/
+.popover.hover-popover:after {
+  content: "";
+  position: absolute;
+  width: %;
+  height: px; / px /
+  bottom: ;
+  left: ;
+  right: ;
+  background: linear-gradient(
+    to bottom,
+    transparent,
+    var(--background-primary) %,
+    var(--background-primary)
+  );
+}
+
+/ === footnotes === /
+
+.footnotes {
+  text-align: justify;
+  hyphens: auto;
+  font-size: px;
+}
+
+sup {
+  vertical-align: top;
+  font-size: px;
+  display: inline-block;
+  position: relative;
+  margin: -px   px;
+}
+sub {
+  vertical-align: bottom;
+  font-size: px;
+  display: inline-block;
+  position: relative;
+  margin: px  -px px;
+}
+/ === Quote Block === /
+.markdown-preview-view blockquote {
+  border-radius: px;
+  border: px solid var(--background-modifier-border);
+  background-color: var(--background-secondary);
+  border-left: px solid var(--text-accent);
+  padding: px px px px;
+  display: block;
+  margin-block-start: .em;
+  margin-block-end: em;
+  margin-inline-start: px;
+  text-align: justify;
+  hyphens: auto;
+  / margin-inline-start: ; /
+}
+/ .markdown-preview-view blockquote p {
+  display: inline;
+  margin: ;
+} /
+/ Add quotation character before and after quote /
+/ .markdown-preview-view blockquote:before {
+  font: px/px serif;
+  color: var(--text-accent);
+  content: "\C";
+  font-size: em;
+  line-height: .em;
+  vertical-align: -.em;
+}
+.markdown-preview-view blockquote:after {
+  font: px/px serif;
+  color: var(--text-accent);
+  content: "\D";
+  font-size: em;
+  line-height: .em;
+  vertical-align: -.em;
+} /
+
+/=============== lists bullets ================/
+ul {
+  list-style-type: disc;
+}
+ul ul {
+  list-style-type: disc;
+}
+ul ul ul {
+  list-style-type: circle;
+}
+
+/ ==== Table Styles ==== /
+.markdown-preview-view table,
+.markdown-preview-view th,
+.markdown-preview-view td {
+  border: px solid var(--text-faint);
+}
+
+.markdown-preview-view th {
+  background-color: var(--background-secondary-alt);
+}
+.theme-dark .markdown-preview-view tr:nth-child(even) {
+  background-color: rgba(, , , .);
+}
+.theme-light .markdown-preview-view tr:nth-child(even) {
+  background-color: rgba(, , , .);
+}
+
+/=============== tables align ================/
+tbody {
+  display: table-row-group;
+  vertical-align: top;
+  border-color: inherit;
+}
+/=============== add mods below ================/
+/=============== add mods below ================/
+/=============== add mods below ================/
+
+/----file explorer column view : slightly buggy ----/
+.nav-folder-children {
+  column-width: px;
+  column-rule: px solid var(--background-modifier-border);
+}
+
+/ Wrap long nav text and some paddings /
+.nav-file-title,
+.nav-folder-title {
+  white-space: normal;
+  width: auto;
+  line-height: .;
+}
+
+/ Indent wrapped nav text /
+/ .nav-file-title-content {
+  margin-left: px;
+  text-indent: -px;
+} /
+
+/ Justify preview text /
+.markdown-preview-view p {
+  text-align: justify;
+  hyphens: auto;
+}
+
+/ reduce size of embedded files /
+/ .markdown-preview-view img, /
+.markdown-preview-view audio,
+.markdown-preview-view video {
+  max-width: max(px, %);
+  outline: none;
+}
+
+/=============== add mods below ================/
+
+/=============== add mods below ================/
+
+/=============== add mods below ================/
+
+/===============================================/
+/                                    .__    .___/
+/  _____   ___________  _____ _____  |__| __| _//
+/ /     \_/ __ \_  __ \/     \\__  \ |  |/ __ | /
+/|  Y Y  \  ___/|  | \/  Y Y  \/ __ \|  / /_/ | /
+/|__|_|  /\___  >__|  |__|_|  (____  /__\____ | /
+/      \/     \/            \/     \/        \/ /
+/======== optionnal mermaid style below ========/
+
+.label {
+  font-family: Segoe UI, "trebuchet ms", verdana, arial, Fira Code, consolas,
+    monospace !important;
+  color: var(--text-normal) !important;
+}
+
+.label text {
+  fill: var(--background-primary-alt) !important;
+}
+
+.node rect,
+.node circle,
+.node ellipse,
+.node polygon,
+.node path {
+  fill: var(--background-modifier-border) !important;
+  stroke: var(--text-normal) !important;
+  stroke-width: .px !important;
+}
+
+.node .label {
+  text-align: center !important;
+}
+
+.node.clickable {
+  cursor: pointer !important;
+}
+
+.arrowheadPath {
+  fill: var(--text-faint) !important;
+}
+
+.edgePath .path {
+  stroke: var(--text-faint) !important;
+  stroke-width: .px !important;
+}
+
+.flowchart-link {
+  stroke: var(--text-faint) !important;
+  fill: none !important;
+}
+
+.edgeLabel {
+  background-color: var(--background-primary) !important;
+  text-align: center !important;
+}
+
+.edgeLabel rect {
+  opacity:  !important;
+}
+
+.cluster rect {
+  fill: var(--background-primary-alt) !important;
+  stroke: var(--text-faint) !important;
+  stroke-width: px !important;
+}
+
+.cluster text {
+  fill: var(--background-primary) !important;
+}
+
+div.mermaidTooltip {
+  / position: absolute !important;  fixed appear scrollbar/
+  text-align: center !important;
+  max-width: px !important;
+  padding: px !important;
+  font-family: Segoe UI, "trebuchet ms", verdana, arial !important;
+  font-size: px !important;
+  background: var(--background-secondary) !important;
+  border: px solid var(--text-faint) !important;
+  border-radius: px !important;
+  pointer-events: none !important;
+  z-index:  !important;
+}
+
+/ Sequence Diagram variables /
+
+.actor {
+  stroke: var(--text-accent) !important;
+  fill: var(--background-secondary-alt) !important;
+}
+
+text.actor > tspan {
+  fill: var(--text-muted) !important;
+  stroke: none !important;
+}
+
+.actor-line {
+  stroke: var(--text-muted) !important;
+}
+
+.messageLine {
+  stroke-width: . !important;
+  stroke-dasharray: none !important;
+  stroke: var(--text-muted) !important;
+}
+
+.messageLine {
+  stroke-width: . !important;
+  stroke-dasharray: ,  !important;
+  stroke: var(--text-muted) !important;
+}
+
+arrowhead path {
+  fill: var(--text-muted) !important;
+  stroke: var(--text-muted) !important;
+}
+
+.sequenceNumber {
+  fill: var(--background-primary) !important;
+}
+
+sequencenumber {
+  fill: var(--text-muted) !important;
+}
+
+crosshead path {
+  fill: var(--text-muted) !important;
+  stroke: var(--text-muted) !important;
+}
+
+.messageText {
+  fill: var(--text-muted) !important;
+  stroke: var(--text-muted) !important;
+}
+
+.labelBox {
+  stroke: var(--text-accent) !important;
+  fill: var(--background-secondary-alt) !important;
+}
+
+.labelText,
+.labelText > tspan {
+  fill: var(--text-muted) !important;
+  stroke: none !important;
+}
+
+.loopText,
+.loopText > tspan {
+  fill: var(--text-muted) !important;
+  stroke: none !important;
+}
+
+.loopLine {
+  stroke-width: px !important;
+  stroke-dasharray: ,  !important;
+  stroke: var(--text-accent) !important;
+  fill: var(--text-accent) !important;
+}
+
+.note {
+  stroke: var(--text-normal) !important;
+  fill: var(--text-accent) !important;
+}
+
+.noteText,
+.noteText > tspan {
+  fill: var(--background-secondary-alt) !important;
+  stroke: none !important;
+}
+
+/ Gantt chart variables /
+
+.activation {
+  fill: var(--background-secondary) !important;
+  stroke: var(--text-accent) !important;
+}
+
+.activation {
+  fill: var(--background-secondary) !important;
+  stroke: var(--text-accent) !important;
+}
+
+.activation {
+  fill: var(--background-secondary) !important;
+  stroke: var(--text-accent) !important;
+}
+
+/ Section styling /
+
+.mermaid-main-font {
+  font-family: Segoe UI, "trebuchet ms", verdana, arial !important;
+}
+
+.section {
+  stroke: none !important;
+  opacity: . !important;
+}
+
+.section {
+  fill: var(--text-faint) !important;
+}
+
+.section {
+  fill: var(--text-accent) !important;
+}
+
+.section,
+.section {
+  fill: var(--text-normal) !important;
+  opacity: . !important;
+}
+
+.sectionTitle {
+  fill: var(--text-normal) !important;
+}
+
+.sectionTitle {
+  fill: var(--text-normal) !important;
+}
+
+.sectionTitle {
+  fill: var(--text-normal) !important;
+}
+
+.sectionTitle {
+  fill: var(--text-normal) !important;
+}
+
+.sectionTitle {
+  text-anchor: start !important;
+  font-size: px !important;
+  line-height: px !important;
+  font-family: Segoe UI, "trebuchet ms", verdana, arial !important;
+}
+
+/ Grid and axis /
+
+.grid .tick {
+  stroke: var(--text-muted) !important;
+  opacity: . !important;
+  shape-rendering: crispEdges !important;
+}
+
+.grid .tick text {
+  font-family: Segoe UI, "trebuchet ms", verdana, arial !important;
+}
+
+.grid path {
+  stroke-width:  !important;
+}
+
+/ Today line /
+
+.today {
+  fill: none !important;
+  stroke: var(--background-modifier-error) !important;
+  stroke-width: px !important;
+}
+
+/ Task styling /
+
+/ Default task /
+
+.task {
+  stroke-width: .px !important;
+}
+
+.taskText {
+  text-anchor: middle !important;
+  font-family: Segoe UI, "trebuchet ms", verdana, arial !important;
+}
+
+.taskText:not([font-size]) {
+  font-size: px !important;
+}
+
+.taskTextOutsideRight {
+  fill: var(--text-normal) !important;
+  text-anchor: start !important;
+  font-size: px !important;
+  font-family: Segoe UI, "trebuchet ms", verdana, arial !important;
+}
+
+.taskTextOutsideLeft {
+  fill: var(--text-normal) !important;
+  text-anchor: end !important;
+  font-size: px !important;
+}
+
+/ Special case clickable /
+
+.task.clickable {
+  cursor: pointer !important;
+}
+
+.taskText.clickable {
+  cursor: pointer !important;
+  fill: var(--interactive-accent_hover) !important;
+  font-weight: bold !important;
+}
+
+.taskTextOutsideLeft.clickable {
+  cursor: pointer !important;
+  fill: var(--interactive-accent_hover) !important;
+  font-weight: bold !important;
+}
+
+.taskTextOutsideRight.clickable {
+  cursor: pointer !important;
+  fill: var(--interactive-accent_hover) !important;
+  font-weight: bold !important;
+}
+
+/ Specific task settings for the sections/
+
+.taskText,
+.taskText,
+.taskText,
+.taskText {
+  fill: var(--text-normal) !important;
+}
+
+.task,
+.task,
+.task,
+.task {
+  fill: var(--background-secondary-alt) !important;
+  stroke: var(--text-muted) !important;
+}
+
+.taskTextOutside,
+.taskTextOutside {
+  fill: var(--text-muted) !important;
+}
+
+.taskTextOutside,
+.taskTextOutside {
+  fill: var(--text-muted) !important;
+}
+
+/ Active task /
+
+.active,
+.active,
+.active,
+.active {
+  fill: var(--text-accent) !important;
+  stroke: var(--text-muted) !important;
+}
+
+.activeText,
+.activeText,
+.activeText,
+.activeText {
+  fill: var(--text-normal) !important;
+}
+
+/ Completed task /
+
+.done,
+.done,
+.done,
+.done {
+  stroke: var(--text-muted) !important;
+  fill: var(--text-faint) !important;
+  stroke-width:  !important;
+}
+
+.doneText,
+.doneText,
+.doneText,
+.doneText {
+  fill: var(--text-normal) !important;
+}
+
+/ Tasks on the critical line /
+
+.crit,
+.crit,
+.crit,
+.crit {
+  stroke: var(--accent-strong) !important;
+  fill: var(--accent-strong) !important;
+  stroke-width:  !important;
+}
+
+.activeCrit,
+.activeCrit,
+.activeCrit,
+.activeCrit {
+  stroke: var(--accent-strong) !important;
+  fill: var(--text-accent) !important;
+  stroke-width:  !important;
+}
+
+.doneCrit,
+.doneCrit,
+.doneCrit,
+.doneCrit {
+  stroke: var(--accent-strong) !important;
+  fill: var(--text-muted) !important;
+  stroke-width: . !important;
+  cursor: pointer !important;
+  shape-rendering: crispEdges !important;
+}
+
+.milestone {
+  transform: rotate(deg) scale(., .) !important;
+}
+
+.milestoneText {
+  font-style: italic !important;
+}
+
+.doneCritText,
+.doneCritText,
+.doneCritText,
+.doneCritText {
+  fill: var(--text-normal) !important;
+}
+
+.activeCritText,
+.activeCritText,
+.activeCritText,
+.activeCritText {
+  fill: var(--text-normal) !important;
+}
+
+.titleText {
+  text-anchor: middle !important;
+  font-size: px !important;
+  fill: var(--text-normal) !important;
+  font-family: Segoe UI, "trebuchet ms", verdana, arial !important;
+}
+
+g.classGroup text {
+  fill: var(--text-accent) !important;
+  stroke: none !important;
+  font-family: consolas, monospace, Segoe UI, "trebuchet ms", verdana, arial !important;
+  font-size: px !important;
+}
+
+g.classGroup text .title {
+  font-weight: bolder !important;
+}
+
+g.clickable {
+  cursor: pointer !important;
+}
+
+g.classGroup rect {
+  fill: var(--background-secondary-alt) !important;
+  stroke: var(--text-accent) !important;
+}
+
+g.classGroup line {
+  stroke: var(--text-accent) !important;
+  stroke-width:  !important;
+}
+
+.classLabel .box {
+  stroke: none !important;
+  stroke-width:  !important;
+  fill: var(--background-secondary-alt) !important;
+  opacity: . !important;
+}
+
+.classLabel .label {
+  fill: var(--text-accent) !important;
+  font-size: px !important;
+}
+
+.relation {
+  stroke: var(--text-accent) !important;
+  stroke-width:  !important;
+  fill: none !important;
+}
+
+.dashed-line {
+  stroke-dasharray:  !important;
+}
+
+compositionStart {
+  fill: var(--text-accent) !important;
+  stroke: var(--text-accent) !important;
+  stroke-width:  !important;
+}
+
+compositionEnd {
+  fill: var(--text-accent) !important;
+  stroke: var(--text-accent) !important;
+  stroke-width:  !important;
+}
+
+aggregationStart {
+  fill: var(--background-secondary-alt) !important;
+  stroke: var(--text-accent) !important;
+  stroke-width:  !important;
+}
+
+aggregationEnd {
+  fill: var(--background-secondary-alt) !important;
+  stroke: var(--text-accent) !important;
+  stroke-width:  !important;
+}
+
+dependencyStart {
+  fill: var(--text-accent) !important;
+  stroke: var(--text-accent) !important;
+  stroke-width:  !important;
+}
+
+dependencyEnd {
+  fill: var(--text-accent) !important;
+  stroke: var(--text-accent) !important;
+  stroke-width:  !important;
+}
+
+extensionStart {
+  fill: var(--text-accent) !important;
+  stroke: var(--text-accent) !important;
+  stroke-width:  !important;
+}
+
+extensionEnd {
+  fill: var(--text-accent) !important;
+  stroke: var(--text-accent) !important;
+  stroke-width:  !important;
+}
+
+.commit-id,
+.commit-msg,
+.branch-label {
+  fill: var(--text-muted) !important;
+  color: var(--text-muted) !important;
+  font-family: Segoe UI, "trebuchet ms", verdana, arial !important;
+}
+
+.pieTitleText {
+  text-anchor: middle !important;
+  font-size: px !important;
+  fill: var(--text-normal) !important;
+  font-family: Segoe UI, "trebuchet ms", verdana, arial !important;
+}
+
+.slice {
+  font-family: Segoe UI, "trebuchet ms", verdana, arial !important;
+}
+
+g.stateGroup text {
+  fill: var(--text-accent) !important;
+  stroke: none !important;
+  font-size: px !important;
+  font-family: Segoe UI, "trebuchet ms", verdana, arial !important;
+}
+
+g.stateGroup text {
+  fill: var(--text-accent) !important;
+  stroke: none !important;
+  font-size: px !important;
+}
+
+g.stateGroup .state-title {
+  font-weight: bolder !important;
+  fill: var(--background-secondary-alt) !important;
+}
+
+g.stateGroup rect {
+  fill: var(--background-secondary-alt) !important;
+  stroke: var(--text-accent) !important;
+}
+
+g.stateGroup line {
+  stroke: var(--text-accent) !important;
+  stroke-width:  !important;
+}
+
+.transition {
+  stroke: var(--text-accent) !important;
+  stroke-width:  !important;
+  fill: none !important;
+}
+
+.stateGroup .composit {
+  fill: var(--text-normal) !important;
+  border-bottom: px !important;
+}
+
+.stateGroup .alt-composit {
+  fill: eee !important;
+  border-bottom: px !important;
+}
+
+.state-note {
+  stroke: var(--text-faint) !important;
+  fill: var(--text-accent) !important;
+}
+
+.state-note text {
+  fill: black !important;
+  stroke: none !important;
+  font-size: px !important;
+}
+
+.stateLabel .box {
+  stroke: none !important;
+  stroke-width:  !important;
+  fill: var(--background-secondary-alt) !important;
+  opacity: . !important;
+}
+
+.stateLabel text {
+  fill: black !important;
+  font-size: px !important;
+  font-weight: bold !important;
+  font-family: Segoe UI, "trebuchet ms", verdana, arial !important;
+}
+
+.node circle.state-start {
+  fill: black !important;
+  stroke: black !important;
+}
+
+.node circle.state-end {
+  fill: black !important;
+  stroke: var(--text-normal) !important;
+  stroke-width: . !important;
+}
+
+statediagram-barbEnd {
+  fill: var(--text-accent) !important;
+}
+
+.statediagram-cluster rect {
+  fill: var(--background-secondary-alt) !important;
+  stroke: var(--text-accent) !important;
+  stroke-width: px !important;
+}
+
+.statediagram-cluster rect.outer {
+  rx: px !important;
+  ry: px !important;
+}
+
+.statediagram-state .divider {
+  stroke: var(--text-accent) !important;
+}
+
+.statediagram-state .title-state {
+  rx: px !important;
+  ry: px !important;
+}
+
+.statediagram-cluster.statediagram-cluster .inner {
+  fill: var(--text-normal) !important;
+}
+
+.statediagram-cluster.statediagram-cluster-alt .inner {
+  fill: eee !important;
+}
+
+.statediagram-cluster .inner {
+  rx:  !important;
+  ry:  !important;
+}
+
+.statediagram-state rect.basic {
+  rx: px !important;
+  ry: px !important;
+}
+
+.statediagram-state rect.divider {
+  stroke-dasharray: ,  !important;
+  fill: efefef !important;
+}
+
+.note-edge {
+  stroke-dasharray:  !important;
+}
+
+.statediagram-note rect {
+  fill: var(--text-accent) !important;
+  stroke: var(--text-muted) !important;
+  stroke-width: px !important;
+  rx:  !important;
+  ry:  !important;
+}
+
+:root {
+  --mermaid-font-family: '"trebuchet ms", verdana, arial' !important;
+  --mermaid-font-family: "Comic Sans MS", "Comic Sans", cursive !important;
+}
+
+/ Classes common for multiple diagrams /
+
+.error-icon {
+  fill: var(--text-error) !important;
+}
+
+.error-text {
+  fill: var(--text-muted) !important;
+  stroke: var(--text-muted) !important;
+}
+
+.edge-thickness-normal {
+  stroke-width: px !important;
+}
+
+.edge-thickness-thick {
+  stroke-width: px !important;
+}
+
+.edge-pattern-solid {
+  stroke-dasharray:  !important;
+}
+
+.edge-pattern-dashed {
+  stroke-dasharray:  !important;
+}
+
+.edge-pattern-dotted {
+  stroke-dasharray:  !important;
+}
+
+.marker {
+  fill: var(--text-muted) !important;
+}
+
+.marker.cross {
+  stroke: var(--text-muted) !important;
+}
+

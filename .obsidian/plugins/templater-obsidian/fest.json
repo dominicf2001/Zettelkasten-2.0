@@ -1,0 +1,10 @@
+{
+    "id": "templater-obsidian",
+    "name": "Templater",
+    "version": "..",
+    "description": "Create and use templates",
+    "minAppVersion": "..",
+    "author": "SilentVoid",
+    "authorUrl": "https://github.com/SilentVoid",
+    "isDesktopOnly": false
+}

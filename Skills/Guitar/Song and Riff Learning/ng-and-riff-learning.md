@@ -1,0 +1,1 @@
+- Practice learned lick/riff on different positions in scale

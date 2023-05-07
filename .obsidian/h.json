@@ -1,0 +1,107 @@
+{
+  "collapse-filter": false,
+  "search": "",
+  "showTags": false,
+  "showAttachments": false,
+  "hideUnresolved": false,
+  "showOrphans": true,
+  "collapse-color-groups": true,
+  "colorGroups": [
+    {
+      "query": "tag:📦/💭/🌱",
+      "color": {
+        "a": ,
+        "rgb": 
+      }
+    },
+    {
+      "query": "tag:📦/💭/🌿",
+      "color": {
+        "a": ,
+        "rgb": 
+      }
+    },
+    {
+      "query": "tag:📦/💭/🌲",
+      "color": {
+        "a": ,
+        "rgb": 
+      }
+    },
+    {
+      "query": "tag:📦/📝/📘",
+      "color": {
+        "a": ,
+        "rgb": 
+      }
+    },
+    {
+      "query": "tag:📦/📝/🎙️",
+      "color": {
+        "a": ,
+        "rgb": 
+      }
+    },
+    {
+      "query": "tag:📦/📝/🎥",
+      "color": {
+        "a": ,
+        "rgb": 
+      }
+    },
+    {
+      "query": "tag:📦/📝/🎓",
+      "color": {
+        "a": ,
+        "rgb": 
+      }
+    },
+    {
+      "query": "tag:📦/📝/📃",
+      "color": {
+        "a": ,
+        "rgb": 
+      }
+    },
+    {
+      "query": "tag:📦/📝/❔",
+      "color": {
+        "a": ,
+        "rgb": 
+      }
+    },
+    {
+      "query": "tag:📦/🔖",
+      "color": {
+        "a": ,
+        "rgb": 
+      }
+    },
+    {
+      "query": "tag:📦/💭/🌀",
+      "color": {
+        "a": ,
+        "rgb": 
+      }
+    },
+    {
+      "query": "path:\"📦 Notes/✏️ Excalidraw Notes\"",
+      "color": {
+        "a": ,
+        "rgb": 
+      }
+    }
+  ],
+  "collapse-display": true,
+  "showArrow": false,
+  "textFadeMultiplier": ,
+  "nodeSizeMultiplier": ,
+  "lineSizeMultiplier": ,
+  "collapse-forces": false,
+  "centerStrength": ,
+  "repelStrength": .,
+  "linkStrength": ,
+  "linkDistance": ,
+  "scale": .,
+  "close": false
+}

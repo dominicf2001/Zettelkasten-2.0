@@ -1,0 +1,147 @@
+{
+  "main": {
+    "id": "fcccadff",
+    "type": "split",
+    "children": [
+      {
+        "id": "fccfacae",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "aababf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "📦 Notes/library-notes/📃 Overview of Zettelkasten - Zettelkasten.de.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "ed",
+    "type": "split",
+    "children": [
+      {
+        "id": "effdfef",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "byModifiedTime"
+              }
+            }
+          },
+          {
+            "id": "feeece",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "deeba",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          },
+          {
+            "id": "ccbeb",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": .
+  },
+  "right": {
+    "id": "abcadf",
+    "type": "split",
+    "children": [
+      {
+        "id": "efcfbee",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "dbdcdfab",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "📦 Notes/library-notes/📃 Overview of Zettelkasten - Zettelkasten.de.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": ,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "command-palette:Open command palette": false,
+      "markdown-importer:Open format converter": false,
+      "templater-obsidian:Templater": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
+    }
+  },
+  "active": "aababf",
+  "lastOpenFiles": [
+    "📦 Notes/💭 Thought Notes/🌿 Trivialism.md",
+    "📦 Notes/💭 Thought Notes/🌲 C.S. Lewis' Conception of Christian Sexual Morality.md",
+    "📦 Notes/💭 Thought Notes/🌀 More Random Thoughts.md",
+    "📦 Notes/💭 Thought Notes/🌱 Holons.md",
+    "📦 Notes/💭 Thought Notes/🌀 Random Thoughts.md",
+    "📦 Notes/💭 Thought Notes/🌀 Instantiation of the Transcendent.md",
+    "📦 Notes/💭 Thought Notes/🌱 Proof dependent on Truth dependent on Being.md",
+    "📦 Notes/💭 Thought Notes/🌲 Zettelkasten Organization Brainstorming.md",
+    "📦 Notes/💭 Thought Notes/🌲 Intuiting Math Concepts.md",
+    "📦 Notes/💭 Thought Notes/🌀 VC Thoughts.md",
+    "📦 Notes/library-notes/📘 The Secret Destiny of America - Manly P. Hall.md",
+    "📦 Notes/💭 Thought Notes/🌱 Proof dependent on Truth dependent on Being .md",
+    "📦 Notes/🔖 Byproduct Notes.md",
+    "Democritus.md",
+    "📦 Notes/✏️ Excalidraw Notes/✏️.md",
+    "📦 Notes/✏️ Excalidraw Notes/✏️ Thought Moment Series.md",
+    "📦 Notes/library-notes/📘 In the Buddha's Words - Bhikkhu Bodhi.md",
+    "Math.md",
+    "Positivism.md"
+  ]
+}

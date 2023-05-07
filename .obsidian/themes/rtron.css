@@ -1,0 +1,1723 @@
+/ MODIFIED -- /
+
+.theme-dark
+{
+  --background-primary: f;
+  --background-primary-alt: f;
+  --background-secondary: ;
+  --background-secondary-alt: ;
+  --text-normal: dbcd;
+  --text-faint: ;
+  --text-muted: aaaaaa;
+  --text-selection: f;
+  --text-on-accent: dbcd;
+  --text-accent: cb;
+  --text-title-h: cc; / CyberYellow: fcf, FullYellow: fffb, HYellow: cc /
+  --text-title-h: badff; 
+  --text-title-h: cda;
+  --text-title-h: c; /fcff/
+  --text-title-h: deca; /ddd/
+  --text-title-h: bbb;
+  --text-link: ff;
+  --text-a: dbc;
+  --text-a-hover: ecad; /previous: bab /
+  --text-mark: transparent; / SEE HIGHLIGHTER /
+  --pre-code: d;
+  --text-highlight-bg: rgba(, , , .); / SEE HIGHLIGHTER /
+  --interactive-accent: rgb(, , , .);
+  --interactive-accent-muted: rgb(, , , .);
+  --interactive-accent-hover: eaff; / for Calendar Plugin/
+  --interactive-before: e;
+  --interactive-hover: f; / for Calendar Plugin/
+  --background-modifier-border: ; //
+  --blockquote-border: eaff;
+  --interactive-accent-rgb: fe;
+  --font-family-editor: Avenir, Avenir Next, var(--default-font), sans-serif;
+  --font-family-preview: Avenir, Avenir Next, var(--default-font), sans-serif;
+  --scrollbar-bg: rgb(, , , .);
+  --scrollbar-thumb-bg: ;
+  --background-modifier-error: f;
+  --background-modifier-success: f;
+  --background-modifier-form-field: f;
+  --background-modifier-form-field-highlighted: f;
+}
+graph-view-canvas .links
+{
+  stroke: var(--interactive-accent-rgb) !important;
+}
+
+//
+/ NEW SUPER GRAPH WITH FILTER /
+//
+
+.theme-dark .graph-view.color-fill-tag {
+  color: dbcd;
+}
+
+.theme-dark .graph-view.color-fill-attachment {
+  color: dbc;
+}
+
+.theme-dark .graph-view.color-fill-unresolved {
+  color: eaff;
+  Opacity:;
+}
+
+.theme-dark .graph-view.color-arrow {
+  color: dbc;
+}
+
+//
+/ Graph View /
+//
+
+.graph-view.color-fill {
+    color: fcf;
+}
+.graph-view.color-circle {
+    color: c;
+}
+.graph-view.color-line {
+    color:  c;
+}
+
+.graph-view.color-text {
+    color: cccccc;
+}
+
+.graph-view.color-fill-highlight {
+    color: c;
+}
+.graph-view.color-line-highlight {
+    color: dbcd;
+}
+
+
+
+//
+/ BOLD AND ITALTICS /
+//
+
+
+strong {
+  color: eaff;
+  font-weight: ; /previous bold purple: bfff ; alt: red cfff ; alt: yellow bdbad/
+}
+
+
+em {
+  color: bacf; /previous italic vegas gold: bb ; alt: red ; alt: orange db/
+}
+
+
+//
+/ HIGHLIGHTER /
+//
+
+
+mark
+{
+  background-color: var(--text-mark) !important;
+  padding-top: px;
+  padding-bottom: px;
+  padding-left: px;
+  padding-right: px;
+}
+
+
+.cm-s-obsidian span.cm-highlight {
+    color: CEFF;
+    font-weight: ;
+    background-color: transparent;
+    text-shadow:   .em FCF;
+}
+
+.markdown-preview-view mark {
+    color: CEFF;
+    font-weight: ;
+    text-shadow:   .em FCF;
+    }
+
+
+/settings pop-up/
+
+.modal-bg {
+  position: fixed;
+  top: ;
+  left: ;
+  width: %;
+  height: %;
+  background-color: rgba(, , , .);
+}
+.modal {
+  background-color: var(--background-primary);
+  border-radius: px;
+  border: px solid var(--background-primary);
+  box-shadow:  px px var(--background-modifier-box-shadow);
+  padding: px px;
+  position: relative;
+  min-width: px;
+  }
+
+.vertical-tab-content {
+background-color: var(--background-primary);
+padding: px px;
+}
+
+.u-pop {
+  color: var(--text-title-h);
+}
+
+.mod-settings .setting-item {
+  padding: ;
+}
+
+.setting-item-name {
+  color: badff;
+}
+
+
+//
+/ links and brackets /
+//
+.cm-s-obsidian span.cm-formatting-link {
+    color: dbc !important;
+}
+
+
+//
+/          Blockquote                /
+//
+/ for preview /
+.markdown-preview-view blockquote {
+    background-color: ;
+    border: px solid;
+    border-color: d !important;
+    border-left-width: px !important;
+    border-radius:  px px ;
+    / font-family: merriwether, georgia, serif; /
+    font-family: var(--font-family-preview);
+    font-size: .em;
+    color: dbcd;
+    line-height: .em;
+    margin-top: px;
+    margin-left: px;
+    margin-right: px;
+    margin-bottom: px;
+/ background alt: ab  vertical line alt: rgb(, , , .) /
+    }
+
+
+//
+/ link /
+//
+
+
+a,
+.internal-link,
+.cm-hmd-internal-link,
+.cm-link,
+.cm-formatting-link
+{
+  color: var(--text-a) !important;
+  text-decoration: none !important;
+  font-family: var(--font-family-preview) !important;
+}
+
+/ link hover color /
+a:hover,
+.internal-link:hover
+{
+  color: var(--text-a-hover) !important;
+  text-decoration: none !important;
+}
+
+/ make external links italics to differentiate /
+a:not(.internal-link) {
+  font-style: italic;
+}
+
+/ blockquote /
+.cm-quote / for editor /
+{
+  color: var(--text-normal) !important;
+}
+
+.cm-formatting.cm-formatting-quote.cm-formatting-quote-.cm-quote.cm-quote-
+{
+  color: eaff !important;
+}
+
+
+blockquote / for preview /
+{
+  border-color: var(--blockquote-border) !important;
+}
+
+/ icons at top of panes/
+.file-view-actions a
+{
+  color: var(--text-muted) !important;
+}
+
+.file-view-actions a:hover
+{
+  color: var(--text-a) !important;
+}
+
+/ html tags in editor /
+.cm-tag
+{
+  color: var(--text-accent) !important;
+}
+
+/ code blocks in preview /
+pre code
+{
+  padding: px !important;
+  line-height: normal;
+  display: block;
+  background-color: var(--pre-code) !important;
+}
+
+.markdown-preview-view pre
+{
+  padding: px !important;
+}
+
+/ in-line code for editor and preview and code block for editor/
+code,
+.cm-inline-code
+{
+  background-color: var(--pre-code) !important;
+  color: var(--text-muted) !important;
+  bottom: px !important;
+}
+
+/ code and code blocks for preview /
+.markdown-preview-view code
+{
+  font-size: .px;
+}
+
+
+//
+/ tables /
+//
+
+
+th
+{
+  font-weight:  !important;
+}
+
+thead
+{
+  border-bottom: px solid var(--background-modifier-border);
+}
+
+.table
+{
+  background-color: var(--background-secondary-alt);
+  border: px solid var(--background-modifier-border);
+  padding: px;
+  line-height: normal;
+  display: block;
+  border-top-left-radius: px;
+  border-top-right-radius: px;
+  border-bottom-right-radius: px;
+  border-bottom-left-radius: px;
+}
+
+/ embedded images /
+img
+{
+  display: block;
+}
+
+/ horizontal line in preview /
+.markdown-preview-view hr
+{
+  background-color: var(--text-normal);
+}
+
+
+//
+/             Presentation Mode              /
+//
+
+
+.reveal h {
+    color: var(--text-title-h);
+}
+
+.reveal h {
+    color: var(--text-title-h);
+}
+
+.reveal h {
+    color: var(--text-title-h);
+}
+
+.reveal h {
+    color: var(--text-title-h);
+}
+
+.reveal h {
+    color: var(--text-title-h);
+}
+
+.reveal h {
+    color: var(--text-title-h);
+}
+
+
+//
+/ checkboxes /
+//
+
+
+/ Death-au /
+/ ... Task lists! (I'm proud of this, but could use improvement) /
+.markdown-preview-view .task-list-item-checkbox {
+    -webkit-appearance: none;
+    top: .px !important;
+    box-sizing: border-box;
+    border: px solid  ;
+    position: relative;
+    width: em;
+    height: em;
+    margin: ;
+    margin-right: .em;
+}
+
+
+.markdown-preview-view .task-list-item-checkbox:checked::before {
+    content: '✓';
+    position: absolute;
+    color: ;
+    font-size: em;
+    line-height: em;
+    width:em;
+    text-align:center;
+    text-shadow:   .em ddd;
+}
+
+
+.markdown-preview-view .task-list-item-checkbox
+{
+  top: px;
+}
+
+
+.checkbox-container {
+    background-color: a;
+    border-radius: px;
+    display: inline-block;
+    height: px;
+    position: relative;
+    top: px;
+    user-select: none;
+    width: px;
+    box-shadow: inset  px px rgba(, , , .);
+    transition: background .s ease-in-out, box-shadow .s ease-in-out, border .s ease-in-out, opacity .s ease-in-out, -webkit-box-shadow .s ease-in-out;
+}
+
+.checkbox-container.is-enabled {
+    background-color: dbcd;
+}
+
+
+.list-item-ending-flair {
+    position: absolute;
+    top: px;
+    right: px;
+    font-size: px;
+    color: var(--text-accent);
+    background-color: var(--background-secondary-alt);
+    line-height: px;
+    border-radius: px;
+    padding: px px;
+}
+
+.list-item:hover .list-item-ending-flair {
+    color: var(--text-accent);
+    background-color: var(--background-secondary-alt);
+}
+
+
+button.mod-cta {
+    background-color: dbcd;
+    color: f;
+}
+
+
+.cm-hmd-frontmatter {
+    font-size: px;
+}
+
+
+
+
+//
+/ LEFT side dock --------- RIBBON/
+//
+
+
+.side-dock-ribbon {
+  background-color: ;
+}
+
+.side-dock-ribbon-tab-inner {
+  background-color: ;
+}
+
+.side-dock-ribbon-action {
+  background-color: ;
+}
+
+
+/ LEFT side dock ----- RIBBON FAILED ATTEMPTS/
+side-dock-ribbon-tab is-before-active {
+  color: ;
+  background-color: ;
+}
+side-dock-ribbon-before is-before-active {
+  color: ;
+  background-color: ;
+}
+side-dock-ribbon-tab-inner is-before-active {
+  color: ;
+  background-color: ;
+}
+side-dock-ribbon-tab-inner {
+  color: ;
+  background-color: ;
+}
+
+.side-dock-plugin-panel.mod-file-explorer,
+.side-dock-plugin-panel.mod-starred,
+.side-dock-ribbon-tab.is-after-active,
+.side-dock-ribbon-before.is-before-active,
+.side-dock-ribbon-after.is-before-active {
+   background-color: ;
+}
+
+
+
+
+side-dock-ribbon-tab-inner is-after-active {
+  background-color: ;
+}
+
+.side-dock-ribbon-tab.is-active {
+  color: cccccc !important;
+}
+
+
+.side-dock-title {
+  background-color: ;
+  }
+
+.nav-buttons-container {
+  background-color: ;
+  }
+  
+.nav-header {
+  background-color: ;
+  }
+
+//
+/ LEFT side dock --------- FILE EXPLORER/
+//
+
+
+.nav-folder-title {  
+  color: cccccc;
+  background-color: ;
+  font-weight: ;
+  margin-top: px;
+  margin-bottom: -px;
+  }
+
+.nav-file-title {  
+  color: ;
+  background-color: ;
+  }
+  
+.nav-folder-children {
+    background-color: ;
+}
+
+
+//
+/ RIGHT side dock SPECIAL STUFF/
+//
+
+/Search result TEXT/
+.search-result-file-matches{  
+  color: ;
+  background-color: ;}
+  
+.search-result-file-match:hover {
+    color: dbc;
+    background-color: ;}
+
+/Search result TITLE/
+.search-result-file-title {  
+  color: dbcd;
+  background-color: ;}
+  
+.search-result-file-title:hover {
+	color: dbc;
+    background-color: ; / filename hover/}
+    
+/Search result MATCHED TEXT/
+.search-result-file-matched-text {  
+  color: cccccc;
+  background-color: ;}
+
+/Search result BACKGROUND/
+.search-result-container {  
+  color: ;
+  background-color: ;}
+
+
+//
+/ RIGHT side dock  RIBBON/
+//
+
+
+.side-dock-ribbon-tab.is-active .side-dock-ribbon-tab-inner:hover {
+    color: var(--text-normal) !important;
+    background-color: aaa;
+}
+
+
+.side-dock-ribbon-tab.is-active .side-dock-ribbon-tab-inner:hover {
+    color: dbc !important;
+    background-color: aaa;
+}
+
+.nav-file-tag{ color: var(--text-normal); }  / for the PNG text, but can't specifically target "PNG", just all of those filetype tags. /
+.nav-file.is-active .nav-file-tag { color: var(--text-normal); }
+
+
+
+
+
+/ side dock text, like file names and backlink context /
+.side-dock-panels-container 
+{
+  font-size: px !important;
+}
+
+.side-dock-plugin-panel-inner  {
+    
+    background-color: aaa;
+}
+
+/ side dock titles at top /
+.side-dock-title
+{
+  font-size: px !important;
+  font-weight:  !important;
+}
+
+
+
+/ hover actions on side dock navigation /
+.side-dock-ribbon-tab:hover,
+.side-dock-ribbon-tab-inner:hover,
+.side-dock-ribbon-action:hover,
+.side-dock-ribbon-action.is-active:hover,
+.nav-action-button:hover,
+.side-dock-collapse-btn:hover
+{
+  color: var(--text-a);
+}
+
+/ condense line spacing on file explorer title list. also avoids character-level word breaks /
+.nav-file-title-content,
+.search-result-file-title,
+.search-result-file-match
+{
+  padding-top:  !important;
+  padding-bottom:  !important;
+  line-height: normal !important;
+  word-break: keep-all;
+  font-size: px;
+}
+
+/ clean up side bar empty state (e.g. unlinked mentions) /
+.search-empty-state
+{
+  width: auto;
+  padding-left: px;
+  padding-right: px;
+  line-height: normal;
+}
+
+
+
+
+
+
+/ font for everything outside of editor/preview panes /
+.app-container
+{
+  font-family: var(--font-family-preview);
+}
+
+.status-bar-item
+{
+  font-family: var(--font-family-preview);
+  font-size: px;
+}
+
+
+
+
+
+
+
+
+
+
+//
+/ editor section /
+//
+
+
+
+
+
+
+
+
+/ EDITOR Text (outside of headings and code) /
+
+.cm-s-obsidian
+{
+  font-family: var(--font-family-editor);
+  font-size: px;
+  color: var(--text-normal);
+  padding-left: % !important;
+  padding-right: % !important;
+}
+
+.mod-single-child .cm-s-obsidian
+{
+  font-family: var(--font-family-editor);
+  font-size: px;
+  color: var(--text-normal);
+  padding-left: % !important;
+  padding-right: % !important;
+}
+
+
+
+/ EDITOR headings /
+
+
+.cm-header-
+{
+  font-family: var(--font-family-editor);
+  font-weight: ;
+  font-size: px;
+  font-weight: bold;
+  color: var(--text-title-h);
+}
+
+.cm-header-
+{
+  font-family: var(--font-family-editor);
+  font-weight: ;
+  font-size: px;
+  font-weight: bold;
+  color: var(--text-title-h);
+}
+
+.cm-header-
+{
+  font-family: var(--font-family-editor);
+  font-weight: ;
+  font-size: px;
+  font-weight: bold;
+  color: var(--text-title-h);
+}
+
+.cm-header-
+{
+  font-family: var(--font-family-editor);
+  font-weight: ;
+  font-size: px;
+  font-weight: bold;
+  line-height: px;
+  color: var(--text-title-h);
+}
+
+.cm-header-
+{
+  font-family: var(--font-family-editor);
+  font-weight: ;
+  font-size: px;
+  font-weight: bold;
+  line-height: px;
+  color: var(--text-title-h);
+}
+
+.cm-header-
+{
+  font-family: var(--font-family-editor);
+  font-weight: ;
+  font-size: px;
+  font-weight: bold;
+  line-height: px;
+  color: var(--text-title-h);
+}
+
+.cm-strong {
+  color: eaff;
+  font-weight: ;
+}
+
+.cm-em {
+  color: bacf;
+}
+
+.cm-s-obsidian span.cm-hashtag {
+    color: dbc;
+    text-decoration: underline;
+}
+
+
+
+/ This is the dashes in bullets. Color does not work, 
+but font weight does. /
+.cm-formatting-list {
+  color: fcf;
+  font-weight: ;
+} 
+
+.cm-formatting  / This is the color of header hashtags. Don't change. /
+.cm-formatting-list-ul
+.cm-list- / This is the color of text in lists. Don't change. /
+
+/ This does not work /
+.cm-hashtag {
+  color: fcf;
+}
+.cm-meta cm-hashtag-end {
+  color: fcf;
+}
+
+.cm-meta cm-hashtag-end {
+  color: fcf;
+}
+
+
+.cm-s-obsidian span.cm-formatting-list {
+  color: badff !important;
+}
+
+
+
+
+//
+/ PREVIEW section /
+//
+
+
+
+
+
+
+
+/ PREVIEW - normal text (outside of headings and code) /
+
+p {
+  margin-block-start: px;
+}
+
+
+.markdown-preview-view
+{
+  font-family: var(--font-family-preview);
+  font-size: px;
+  color: var(--text-normal);
+  padding-left: % !important;
+  padding-right: % !important;
+    line-height: px;
+
+}
+
+.mod-single-child .markdown-preview-view
+{
+  font-family: var(--font-family-preview);
+  font-size: px;
+  color: var(--text-normal);
+  padding-left: % !important;
+  padding-right: % !important;
+}
+
+
+/ PREVIEW headings /
+
+
+.markdown-preview-view h
+{
+  font-family: var(--font-family-preview);
+  font-weight: ;
+  font-size: px;
+  font-weight: bold;
+  line-height: px;
+  margin-bottom: px;
+  color: var(--text-title-h);
+}
+
+.markdown-preview-view h
+{
+  font-family: var(--font-family-preview);
+  font-weight: ;
+  font-size: px;
+  font-weight: bold;
+  line-height: px;
+  color: var(--text-title-h);
+}
+
+.markdown-preview-view h
+{
+  font-family: var(--font-family-preview);
+  font-weight: ;
+  font-size: px;
+  font-weight: bold;
+  line-height: px;
+  color: var(--text-title-h);
+}
+
+.markdown-preview-view h
+{
+  font-family: var(--font-family-preview);
+  font-weight: ;
+  font-size: px;
+  font-weight: bold;
+  line-height: px;
+  color: var(--text-title-h);
+}
+
+.markdown-preview-view h
+{
+  font-family: var(--font-family-preview);
+  font-weight: ;
+  font-size: px;
+  font-weight: bold;
+  line-height: px;
+  color: var(--text-title-h);
+}
+
+.markdown-preview-view h
+{
+  font-family: var(--font-family-preview);
+  font-weight: ;
+  font-size: px;
+  font-weight: bold;
+  line-height: px;
+  margin-bottom: px;
+  color: var(--text-title-h);
+  
+}
+
+
+
+
+
+
+/ this code stuff isn't working for me /
+
+code
+{
+  font-family: var(--font-family-preview);
+  font-weight: ;
+  font-size: px;
+  font-weight: none;
+  color: var(--text-title-h);
+}
+
+.code {
+    background-color: var(--grey) !important;
+    border: px solid var(--background-modifier-border) !important;
+    border-color: baea!important;
+}
+
+
+
+
+
+
+
+
+/ internal embedded link rendering in preview /
+.markdown-embed-title
+{
+  font-weight: ;
+}
+
+
+/ normal text outside of headings and code /
+.markdown-preview-view
+{
+  font-family: var(--font-family-preview);
+  font-size: px;
+  color: var(--text-normal);
+  padding-left: % !important;
+  padding-right: % !important;
+}
+
+
+
+/ remove secondary scroll bar in editor that comes from adding variable padding /
+.CodeMirror-scroll::-webkit-scrollbar {
+    display: none;
+}
+
+/ to have sidebar hide and then reveal on hover
+.app-container.is-left-sidedock-collapsed .side-dock.mod-left:not(:hover), .app-container.is-right-sidedock-collapsed .side-dock.mod-right:not(:hover) {
+  width: px !important;
+}
+/
+
+
+/ internal embedded link rendering in preview /
+.markdown-embed-title
+{
+  font-weight: ;
+}
+
+
+/ clean up side bar empty state (e.g. unlinked mentions) /
+.search-empty-state
+{
+  width: auto;
+  padding-left: px;
+  padding-right: px;
+  line-height: normal;
+}
+
+/ remote secondary scroll bar in editor that comes from adding variable padding /
+.CodeMirror-scroll::-webkit-scrollbar {
+    display: none;
+}
+
+/ to have sidebar hide and then reveal on hover
+.app-container.is-left-sidedock-collapsed .side-dock.mod-left:not(:hover), .app-container.is-right-sidedock-collapsed .side-dock.mod-right:not(:hover) {
+  width: px !important;
+}
+/
+
+
+
+
+
+
+
+
+
+
+//
+/ Editor Code Appearance - /
+//
+
+.CodeMirror-code span.cm-inline-code {     
+	color: ddd !important;
+}
+
+
+
+/ Editor CodeBlock TEXT Appearance - /
+.cm-s-obsidian pre.HyperMD-codeblock {     
+	color: ddd !important;
+}
+
+
+.cm-s-obsidian pre.HyperMD-list-line {
+    padding-top: .em;
+    min-height: .em;
+}
+
+
+
+//
+/ Preview Code Appearance /
+//
+
+br + .internal-embed {
+    margin-top: -rem;
+}
+
+.markdown-preview-view code {
+color: ddd !important;
+background-color: var(--pre-code) !important;
+bottom: -.px !important;
+}
+
+
+.markdown-embed {
+    padding-left: px !important;
+    padding-right: px !important;
+    margin-left: px !important;
+    margin-right: px !important;
+}
+
+.markdown-preview-view .markdown-embed, .markdown-preview-view .file-embed {
+    border-top: .px solid bab;
+    border-bottom: .px solid bab;
+    padding: px ;
+    margin: px ;
+}
+
+//
+/ Naked Embeds - But I'm keeping Border and Scroll! /
+//
+.markdown-embed-title { display:none; }
+.markdown-preview-view .markdown-embed-content>:first-child { margin-top: ; }
+.markdown-preview-view .markdown-embed-content>:last-child { margin-bottom: ; }
+
+
+.markdown-embed-link {
+color: bb !important;
+right: px !important;
+}
+
+.markdown-embed-link:hover {
+color: dcf !important;
+}
+
+
+//
+/ Custom addition by randulfr /
+//
+
+.theme-dark .notice {
+    background-color: f;
+    color: rgba(, , );
+}
+
+
+
+//
+/ Title Bar Button /
+//
+
+.titlebar-button {
+    -webkit-app-region: no-drag;
+    padding:  px;
+    cursor: pointer;
+    opacity: .;
+    display: inline-block;
+    color: cda;
+}
+
+
+.titlebar-text {
+    position: absolute;
+    width: %;
+    height: %;
+    top: ;
+    left: ;
+    flex-grow: ;
+    font-size: px;
+    text-align: center;
+    letter-spacing: .em;
+    opacity: .;
+    color: cda;
+}
+
+
+
+//
+/ Transcluded notes embeds - By Ryan JA Murphy /
+//
+
+.markdown-preview-view .markdown-embed {
+  padding: calc(var(--nested-padding) / )  var(--nested-padding);
+}
+.markdown-embed-title {
+  line-height:px;
+  height:px;
+  display: none;
+}
+.markdown-embed .markdown-preview-sizer {
+    padding-left: em !important;
+    padding-top: .em !important;
+    padding-bottom: em !important;
+    min-height: em !important;
+}
+.markdown-embed .markdown-preview-sizer:first-child ul {
+  margin-block-start:px;
+}
+.markdown-embed .markdown-preview-section:last-child p,
+.markdown-embed .markdown-preview-section:last-child ul {
+  margin-block-end:px;
+}
+.markdown-embed-link,
+.file-embed-link {
+  top:px;
+  right:;
+  text-align:right;
+}
+.file-embed-link svg,
+.markdown-embed-link svg {
+  width:px;
+  opacity:;
+}
+.markdown-embed:hover .file-embed-link svg,
+.markdown-embed:hover .markdown-embed-link svg {
+  opacity:;
+}
+.markdown-preview-view .markdown-embed-content > .markdown-preview-view {
+  max-height: none !important;}
+.markdown-embed .markdown-preview-view {
+  padding:;}
+.internal-embed .markdown-embed {
+  border:;
+  border:.px solid var(--background-tertiary);
+  border-left:px solid aec;
+  border-radius:;
+  padding-left: ;
+  background-color: var(--background-primary-alt);
+  box-shadow:  px px rgba(,,,.),  px px rgba(,,,.);
+  transition: all .s cubic-bezier(.,.,.,);
+}
+.internal-embed .markdown-embed:hover {
+    box-shadow:  px px rgba(,,,.),  px px rgba(,,,.);
+    transform: translated(px, -px, px);
+}
+br + .internal-embed {
+    margin-top: rem;
+}
+.markdown-embed-title ~ .markdown-embed-link,
+.internal-embed[src=""] .markdown-embed-link {
+  right: !important;
+  width:%;
+}
+
+.internal-embed:not([src="^"]) .markdown-embed-link {
+    left: auto;
+}
+.internal-embed[src="^"] .markdown-preview-sizer {
+    padding-left: .em !important;
+    padding-top:  !important;
+}
+li > div.internal-embed {
+    display: inline-flex;
+    width: %
+}
+
+li .internal-embed .markdown-embed {
+    width: %;
+}
+
+.markdown-embed-title {
+  line-height:px;
+  height:px;
+  display: none;
+}
+.markdown-embed .markdown-preview-sizer {
+    padding-left: em;
+    padding-top: .em;
+}
+
+.popover {
+  box-shadow: px px var(--background-modifier-box-shadow);
+  pointer-events:auto !important;
+  border:px solid var(--background-modifier-border);
+}
+.popover .markdown-embed-link {
+  display:none;
+}
+.popover .markdown-embed .markdown-preview-view {
+  padding-bottom:em;
+}
+.popover.hover-popover .markdown-embed .markdown-embed-content {
+  max-height: none !important;
+}
+
+.popover.hover-popover .internal-embed[src="^"] .markdown-embed {
+    height: %;
+    max-height: none;
+}
+
+.popover.hover-popover .internal-embed[src="^"] {
+    height: .em;
+}
+
+.popover.hover-popover {
+  max-height:vh;
+}
+
+
+
+
+
+
+
+
+
+
+
+//
+/    at a rule line before ul list    /
+//
+
+ul ul { position: relative; }
+ul ul::before {
+  content:'';
+  border-left: px solid cba;
+  position: absolute;
+}
+ul ul::before { left: -em; top: ; bottom: ; }
+
+/ rule line when there are checkboxes/
+ul .task-list-item ul::before {left: -.em !important}
+
+
+li::marker {
+  color: var(--text-title-h);
+}
+
+.markdown-preview-view li .collapse-indicator {
+  display: flex;
+  margin-top: px;
+}
+
+.markdown-preview-view .collapse-indicator {
+  display: flex;
+  margin-top: .em;
+}
+
+//
+/    Tiny Tweaks now that Nick knows a smidgen more /
+//
+
+/ To make all my hovering actions the same /
+.side-dock-ribbon-tab:hover, 
+.side-dock-ribbon-tab-inner:hover, 
+.side-dock-ribbon-action:hover, 
+.side-dock-ribbon-action.is-active:hover,
+.nav-action-button:hover, 
+.side-dock-collapse-btn:hover
+.workspace-tab-header-inner:hover,
+.workspace-tab-header-inner-icon:hover {
+color: var(--text-normal);
+}
+
+/ The "other" Vertical Lines /
+.workspace-ribbon.mod-left, .workspace-ribbon.mod-left.is-collapsed {
+  border-right-color: rgb(, , , .);
+}
+
+.workspace-ribbon.mod-right, .workspace-ribbon.mod-right.is-collapsed {
+  border-left-color: rgb(, , , .);
+}
+
+/ The "other" Vertical Lines - The "Resizers" /
+.workspace-split.mod-vertical >  > 
+.workspace-leaf-resize-handle, 
+.workspace-split.mod-left-split > /Can't figure out how to hide these bars/
+.workspace-leaf-resize-handle, 
+.workspace-split.mod-right-split > /Can't figure out how to hide these bars/
+.workspace-leaf-resize-handle {
+  right: px;
+  top: px;
+  width: px;
+  height: %;
+  color: dbc;
+  background-color:rgb(, , ,.);
+  z-index: rgb(, , ,.);
+  cursor: col-resize;
+}
+
+
+/ Bottom Status Bar /
+.sync-status-icon.mod-success {
+  color: rgb(, , , .);
+}
+
+/ ScrollBar /
+::-webkit-scrollbar {
+  width: px;
+  height: px;
+  border-radius: px;
+}
+
+::-webkit-scrollbar {
+  background-color: var(--scrollbar-bg);
+}
+::-webkit-scrollbar-corner {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb, ::-webkit-scrollbar-thumb:active {
+  border-radius: px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--scrollbar-thumb-bg);
+}
+
+::-webkit-scrollbar-thumb:active {
+  background-color: rgb(, , , .);
+}
+
+/ Nick's Tiny Sliding Panes Tweaks /
+.workspace-split.mod-root > .workspace-leaf:last-of-type .workspace-leaf-content {
+  border-top-right-radius: px; /instead of px/
+}
+
+/ Publish Pop-up/
+.file-tree-item.mod-new .flair {
+  background-color: var(--background-modifier-success);
+  color: dd;
+}
+
+.file-tree-item.mod-deleted .flair, .file-tree-item.mod-to-delete .flair {
+  background-color: var(--background-modifier-error);
+}
+
+.file-tree-item .flair {
+  line-height: .;
+  padding: px px;
+  color: e;
+}
+
+.file-tree-item.mod-changed .flair {
+  background-color: var(--background-modifier-error);
+  color: rgb(, , , .);
+}
+
+
+
+
+/ CALIFORNIA COAST MODIFIED MODALS /
+
+
+
+
+.progress-bar-message {
+  color: var(--text-faint);
+}
+.modal.mod-sync-history {
+  background-color: var(--shade-);
+}
+.modal {
+  border-top: px solid d;
+  border-bottom: px solid d;
+  background: var(--background-primary);
+  border-radius: px;
+  max-width: px;
+  max-height: vh;
+}
+.modal.mod-settings .vertical-tab-content-container {
+  border-left: var(--border-width) solid var(--background-modifier-border);
+  padding-bottom: ;
+  padding-right: ;
+}
+.modal.mod-settings {
+  max-width: px;
+  width: vw;
+  height: vh;
+}
+
+.modal.mod-settings .vertical-tab-header {
+  height: vh;
+}
+
+.modal.mod-settings .vertical-tab-content-container {
+  height: vh;
+}
+
+.modal.mod-community-theme,
+.modal.mod-community-plugin {
+  width: vw;
+}
+
+.modal,
+.prompt,
+.suggestion-container {
+  box-shadow: px px px rgba(, , , .);
+}
+
+.prompt-instructions {
+  color: var(--text-title-h);
+}
+
+
+
+
+
+
+
+ / CALIFORNIA COAST MODIFIED SETTINGS  /
+
+
+ .modal-close-button:before {
+  font-weight: ;
+}
+
+.horizontal-tab-content,
+.vertical-tab-content {
+  background: var(--background-primary);
+}
+
+.modal.mod-settings .vertical-tab-header {
+  background: var(--background-secondary-alt);
+  padding-top: px;
+  padding-left: px;
+}
+
+.vertical-tab-header-group-title {
+  font-size: px;
+  font-weight: ;
+  text-transform: none;
+  letter-spacing: ;
+  padding: px px;
+  background: var(--background-secondary-alt);
+}
+
+
+.vertical-tab-nav-item {
+  font-size: px;
+  padding: px px;
+  line-height: ;
+  cursor: var(--cursor);
+  color: var(--text-normal);
+  border-radius: var(--radius-s);
+  background: var(--background-secondary-alt);
+}
+
+
+.vertical-tab-nav-item:hover {
+  background: var(--background-secondary);
+}
+
+.vertical-tab-nav-item.is-active {
+  color: var(--text-normal);
+  background: var(--background-secondary);
+}
+
+.hotkey-list-container,
+.hotkey-search-container {
+  padding-left: px;
+}
+.setting-hotkey {
+  background-color: var(--background-modifier-border);
+  padding: px  px ;
+  line-height: px;
+  min-height: ;
+}
+.setting-add-hotkey-button, .setting-restore-hotkey-button {
+  color: var(--text-muted);
+}
+.setting-hotkey.mod-empty {
+  background: transparent;
+}
+
+/    Settings Popup   /
+/                    /
+
+
+button.mod-cta {
+  background-color: var(--background-primary);
+  color: var(--text-on-accent);
+  border: px solid var(--background-modifier-border);
+}
+
+button.mod-cta:hover {
+  background-color: var(--background-primary);
+  color: var(--text-on-accent);
+  border: px solid var(--interactive-accent);
+}
+
+.tree-item-self:hover .tree-item-flair {
+  background-color: var(--interactive-accent);
+  color: var(--background-secondary-alt)
+}
+
+.flair.mod-pop {
+  background-color: var(--background-primary);
+  color: var(--text-on-accent);
+}
+
+/ Tag List in Right Sidebar/
+.tree-item-self {
+  display: flex;
+  align-items: flex-start;
+  padding-top: px;
+  padding-right: px;
+  padding-bottom: px;
+  padding-left: px;
+  border-radius: px;
+  color: var(--text-muted);
+}
+
+/ Making sure "Conflict" text looks good/
+.theme-dark .setting-hotkey.has-conflict  {
+  background-color: var(--background-modifier-error);
+  color: ff;
+}
+.setting-hotkey-icon.setting-delete-hotkey:hover {
+  color: dbcd;
+}
+
+button.mod-warning {
+  background-color: var(--background-modifier-error);
+  color: badff;
+}
+button.mod-warning:hover {
+  background-color: var(--background-modifier-error);
+  color: ff;
+}
+
+
+
+
+
+/ This is to hide queries in Preview Mode. Thanks Kassapa!/
+.markdown-preview-view .internal-query.is-embed .internal-query-header{ display:none; }
+
+
+/TAG PANE selected button thing
+
+.nav-action-button.is-active {
+  background-color: var(--background-primary);
+  color: var(--text-normal);
+  padding-left: px;
+  padding-right: px;
+  padding-top: px;
+  padding-bottom: px;
+}
+
+.nav-action-button.is-active:hover {
+  background-color: var(--background-primary);
+  color: var(--text-normal);
+}
+
+/fixing YAML tag color/
+.frontmatter-container .tag, .frontmatter-container .frontmatter-alias {
+  text-decoration: none;
+  background-color: var(--background-secondary-alt);
+  border-radius: px;
+  color: var(--text-a);
+  font-size: .em;
+  padding: px px;
+  margin: px px;
+  line-height: px;
+  border: px solid transparent;
+  white-space: nowrap;
+}
+
+/less rounded tag pills/
+.frontmatter-container .tag, .frontmatter-container .frontmatter-alias {
+  text-decoration: none;
+  background-color: var(--background-secondary-alt);
+  border-radius: px;
+  color: var(--text-a);
+  font-size: .em;
+  padding: px px;
+  margin: px px;
+  line-height: px;
+  border: px solid transparent;
+  white-space: nowrap;
+}
+
+/  EMOJI INLINE FIX   /
+img.emoji {
+  display: inline-block;
+}
+
+
+/ Active buttons /
+/
+.workspace-leaf-content[data-type='search'] 
+.nav-action-button.is-active {
+  background-color: var(--background-primary);
+  color: var(--text-normal);
+}
+
+.workspace-leaf-content[data-type='backlink'] 
+.nav-action-button.is-active {
+    background-color: var(--background-primary);
+    color: var(--text-normal);
+}
+/
+
+.nav-action-button.is-active {
+  background-color: transparent;
+  color: var(--text-on-accent);
+}
+
+
+/ Making the search dropdown box have smaller fonts /
+.suggestion-container.mod-search-suggestion {
+  font-family: var(--font-family-preview);
+  font-size: px; / doesn't work /
+  line-height: px; / this works, which is good enough /
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//
+/ HIGHLIGHTER UPDATES /
+//
+
+mark
+{
+  background-color: var(--text-mark) !important;
+  padding-top: px;
+  padding-bottom: px;
+  padding-left: px;
+  padding-right: px;
+}
+
+
+.markdown-preview-view mark {
+    color: CEFF;
+    font-weight: ;
+    text-shadow:   .em FCF;
+    }
+
+
+.cm-s-obsidian span.cm-highlight {
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding:  .rem;
+  background-image: linear-gradient(deg, cff %, ddbff %) !important;
+  text-shadow:   .em fcf;
+}
+
+.markdown-preview-view mark {
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding:  .rem;
+  background-image: linear-gradient(deg, cff %, ddbff %) !important;
+  text-shadow:   .em fcf;
+  }

@@ -1,0 +1,16 @@
+Time:  minutes
+- Picking Patterns![[Capafsdasfsture.png]]
+- Fret patterns
+- Strumming patterns
+- Rhythm
+	- [Metronome boot camp](https://learn.guitaros.com/courses//lectures/)
+	- Recording onto computer
+- Bending
+- Chord changes
+- Spider-walk
+- Vibrato
+- Pulls offs, tapping, slides, etc
+- Pick accuracy
+- String skipping
+- [[Picking Tips|Major Scale picking exercise]]
+- Hybrid picking

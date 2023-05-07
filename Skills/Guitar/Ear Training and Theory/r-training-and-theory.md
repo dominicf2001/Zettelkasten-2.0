@@ -1,0 +1,3 @@
+- Playing notes on scale over certain chords
+- [Sing the notes of a scale as you play](https://www.youtube.com/watch?v=NXJYcHk)
+- 
